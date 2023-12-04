@@ -31,7 +31,7 @@ Welcome to the Team D Smart Mobility Engineering Lab repository! This project is
    - Packages: battery_monitoring_12200335, gesture_pub_sub 2 (with Akash)
 6. **Asadbek Khoshimov**
    - Student ID: 12200306
-   - GitHub: GitHub Repository Link
+   - GitHub: [GitHub Repository Link](https://github.com/asadbekkhoshimov/Smart-Mobility-Engineering-Lab/tree/main/Final_Project_12200306)
    - Packages: ros2_weather_talk 1, room_temperature_pkg 2
 7. **Timur**
    - Student ID: 12200338
