@@ -22,7 +22,7 @@ Welcome to the Team D Smart Mobility Engineering Lab repository! This project is
    - Packages: lane_keeping 1, obstacle_avoidance 2
 
 4. **Akash Ghimire**
-   - Student ID: 12194814
+   - Student ID: 12194814NO
    - GitHub: GitHub Repository Link
    - Packages: cam_interface 1, gesture_interface 2, gesture_pub_sub 3, cam_pub_sub 4
 5. **Jamshid Ganiev**
@@ -32,14 +32,14 @@ Welcome to the Team D Smart Mobility Engineering Lab repository! This project is
 6. **Asadbek Khoshimov**
    - Student ID: 12200306
    - GitHub: GitHub Repository Link
-   - Packages: 
-7. **Akash Ghimire**
-   - Student ID: 12194814
+   - Packages: ros2_weather_talk 1, room_temperature_pkg 2
+7. **Timur**
+   - Student ID: 12200338
    - GitHub: GitHub Repository Link
-   - Packages: cam_interface 1, gesture_interface 2, gesture_pub_sub 3
-8. **Akash Ghimire**
-   - Student ID: 12194814
+   - Packages: voice_recognition 1
+8. **Adham**
+   - Student ID: 12200317
    - GitHub: GitHub Repository Link
-   - Packages: cam_interface 1, gesture_interface 2, gesture_pub_sub 3
+   - Packages: logging_monitoring
 
 Thanks for all the contributions!
