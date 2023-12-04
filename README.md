@@ -13,7 +13,7 @@ Welcome to the Team D Smart Mobility Engineering Lab repository! This project is
 
 1. **Vakhitov AkbarAli**
    - Student ID: 12200312
-   - GitHub: GitHub Repository Link
+   - GitHub: [GitHub Repository Link](https://github.com/ImAli0/ROS_Smart_Mobility_Course_activities/tree/master/emotion_recognition)
    - Packages: emotion_recognition
 
 2. **Khumoyun**
@@ -27,7 +27,7 @@ Welcome to the Team D Smart Mobility Engineering Lab repository! This project is
    - Packages: cam_interface 1, gesture_interface 2, gesture_pub_sub 3, cam_pub_sub 4
 5. **Jamshid Ganiev**
    - Student ID: 12200335
-   - GitHub: GitHub Repository Link
+   - GitHub: [GitHub Repository Link](https://github.com/Jamshid-Ganiev/SME-Lab/tree/main/Final-Project)
    - Packages: battery_monitoring_12200335, gesture_pub_sub 2 (with Akash)
 6. **Asadbek Khoshimov**
    - Student ID: 12200306
