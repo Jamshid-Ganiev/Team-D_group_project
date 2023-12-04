@@ -1,0 +1,21 @@
+[2.388s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/battery_monitoring_12200335': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/battery_monitoring_12200335 build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/install.log --install-scripts $base/lib/battery_monitoring_12200335 --single-version-externally-managed
+[2.999s] running egg_info
+[2.999s] writing ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/PKG-INFO
+[2.999s] writing dependency_links to ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/dependency_links.txt
+[2.999s] writing entry points to ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/entry_points.txt
+[2.999s] writing requirements to ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/requires.txt
+[3.000s] writing top-level names to ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/top_level.txt
+[3.088s] reading manifest file '../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/SOURCES.txt'
+[3.090s] writing manifest file '../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/SOURCES.txt'
+[3.090s] running build
+[3.090s] running build_py
+[3.096s] running install
+[3.096s] running install_lib
+[3.113s] running install_data
+[3.113s] running install_egg_info
+[3.131s] removing '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages/battery_monitoring_12200335-0.0.0-py3.8.egg-info' (and everything under it)
+[3.131s] Copying ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages/battery_monitoring_12200335-0.0.0-py3.8.egg-info
+[3.131s] running install_scripts
+[3.218s] Installing battery_checker script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/lib/battery_monitoring_12200335
+[3.219s] writing list of installed files to '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/install.log'
+[3.698s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/battery_monitoring_12200335' returned '0': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/battery_monitoring_12200335 build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/install.log --install-scripts $base/lib/battery_monitoring_12200335 --single-version-externally-managed

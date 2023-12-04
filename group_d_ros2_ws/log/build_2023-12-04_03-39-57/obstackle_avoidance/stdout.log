@@ -1,0 +1,70 @@
+running egg_info
+creating ../../build/obstackle_avoidance/obstackle_avoidance.egg-info
+writing ../../build/obstackle_avoidance/obstackle_avoidance.egg-info/PKG-INFO
+writing dependency_links to ../../build/obstackle_avoidance/obstackle_avoidance.egg-info/dependency_links.txt
+writing entry points to ../../build/obstackle_avoidance/obstackle_avoidance.egg-info/entry_points.txt
+writing requirements to ../../build/obstackle_avoidance/obstackle_avoidance.egg-info/requires.txt
+writing top-level names to ../../build/obstackle_avoidance/obstackle_avoidance.egg-info/top_level.txt
+writing manifest file '../../build/obstackle_avoidance/obstackle_avoidance.egg-info/SOURCES.txt'
+reading manifest file '../../build/obstackle_avoidance/obstackle_avoidance.egg-info/SOURCES.txt'
+writing manifest file '../../build/obstackle_avoidance/obstackle_avoidance.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib/obstackle_avoidance
+copying obstackle_avoidance/cli_emergency.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib/obstackle_avoidance
+copying obstackle_avoidance/cli_obstackle-avoidance.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib/obstackle_avoidance
+copying obstackle_avoidance/obstacle_avoidance.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib/obstackle_avoidance
+copying obstackle_avoidance/emergency_braking.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib/obstackle_avoidance
+copying obstackle_avoidance/__init__.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib/obstackle_avoidance
+copying obstackle_avoidance/wall_following.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib/obstackle_avoidance
+copying obstackle_avoidance/collision_avoidance.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib/obstackle_avoidance
+copying obstackle_avoidance/cli_collision-avoidance.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib/obstackle_avoidance
+running install
+running install_lib
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance
+copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib/obstackle_avoidance/cli_emergency.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance
+copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib/obstackle_avoidance/cli_obstackle-avoidance.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance
+copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib/obstackle_avoidance/obstacle_avoidance.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance
+copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib/obstackle_avoidance/emergency_braking.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance
+copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib/obstackle_avoidance/__init__.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance
+copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib/obstackle_avoidance/wall_following.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance
+copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib/obstackle_avoidance/collision_avoidance.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance
+copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build/lib/obstackle_avoidance/cli_collision-avoidance.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance
+byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance/cli_emergency.py to cli_emergency.cpython-38.pyc
+byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance/cli_obstackle-avoidance.py to cli_obstackle-avoidance.cpython-38.pyc
+byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance/obstacle_avoidance.py to obstacle_avoidance.cpython-38.pyc
+byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance/emergency_braking.py to emergency_braking.cpython-38.pyc
+byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance/wall_following.py to wall_following.cpython-38.pyc
+byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance/collision_avoidance.py to collision_avoidance.cpython-38.pyc
+byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance/cli_collision-avoidance.py to cli_collision-avoidance.cpython-38.pyc
+running install_data
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/ament_index
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/ament_index/resource_index
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/ament_index/resource_index/packages
+copying resource/obstackle_avoidance -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/ament_index/resource_index/packages
+copying package.xml -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/launch
+copying launch/obstacle_avoidance.launch.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/launch
+copying launch/emergency_braking.launch.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/launch
+copying launch/collision_avoidance.launch.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/launch
+copying launch/wall_following.launch.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/launch
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/rviz
+copying rviz/obstackle_avoidance.rviz -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/rviz
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/worlds
+copying worlds/emergency_braking.sdf -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/worlds
+copying worlds/obstacle_avoidance.world -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/worlds
+copying worlds/wall_following.sdf -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/worlds
+copying worlds/wall_following.world -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/worlds
+copying worlds/obstacle_avoidance.sdf -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/worlds
+copying worlds/emergency_braking.world -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/worlds
+running install_egg_info
+Copying ../../build/obstackle_avoidance/obstackle_avoidance.egg-info to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance-0.1.0-py3.8.egg-info
+running install_scripts
+Installing collision_avoidance script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/obstackle_avoidance
+Installing emergency_braking script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/obstackle_avoidance
+Installing obstacle_avoidance script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/obstackle_avoidance
+Installing wall_following script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/obstackle_avoidance
+writing list of installed files to '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/install.log'

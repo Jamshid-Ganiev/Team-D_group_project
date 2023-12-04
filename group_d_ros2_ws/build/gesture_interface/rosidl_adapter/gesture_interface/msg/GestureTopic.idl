@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from gesture_interface/msg/GestureTopic.msg
+// generated code does not contain a copyright notice
+
+
+module gesture_interface {
+  module msg {
+    struct GestureTopic {
+      string linear_motion;
+
+      string angular_motion;
+    };
+  };
+};

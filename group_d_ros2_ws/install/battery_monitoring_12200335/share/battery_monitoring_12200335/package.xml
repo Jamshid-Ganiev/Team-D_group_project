@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>battery_monitoring_12200335</name>
+  <version>0.0.0</version>
+  <description>Battery monitoring script utilizing ROS (Robot Operating System) for a TurtleBot,
+               subscribing to a custom battery state topic, and displaying voltage, percentage, estimated runtime, 
+               and charging status.
+  </description>
+  <maintainer email="12200335@inha.edu">Jamshid Ganiev</maintainer>
+  <license>Apache License 2.0</license>
+  <depend>launch</depend>
+
+  <exec_depend>ros2launch</exec_depend>
+  <depend>action_msgs</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

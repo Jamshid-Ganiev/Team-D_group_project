@@ -1,0 +1,42 @@
+[2.025s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/room_temperature_pkg': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/room_temperature_pkg/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/room_temperature_pkg build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/room_temperature_pkg/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/room_temperature_pkg/install.log --install-scripts $base/lib/room_temperature_pkg --single-version-externally-managed
+[2.341s] running egg_info
+[2.342s] creating ../../build/room_temperature_pkg/room_temperature_pkg.egg-info
+[2.342s] writing ../../build/room_temperature_pkg/room_temperature_pkg.egg-info/PKG-INFO
+[2.343s] writing dependency_links to ../../build/room_temperature_pkg/room_temperature_pkg.egg-info/dependency_links.txt
+[2.343s] writing entry points to ../../build/room_temperature_pkg/room_temperature_pkg.egg-info/entry_points.txt
+[2.343s] writing requirements to ../../build/room_temperature_pkg/room_temperature_pkg.egg-info/requires.txt
+[2.343s] writing top-level names to ../../build/room_temperature_pkg/room_temperature_pkg.egg-info/top_level.txt
+[2.345s] writing manifest file '../../build/room_temperature_pkg/room_temperature_pkg.egg-info/SOURCES.txt'
+[2.388s] reading manifest file '../../build/room_temperature_pkg/room_temperature_pkg.egg-info/SOURCES.txt'
+[2.396s] writing manifest file '../../build/room_temperature_pkg/room_temperature_pkg.egg-info/SOURCES.txt'
+[2.396s] running build
+[2.396s] running build_py
+[2.397s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/room_temperature_pkg/build
+[2.397s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/room_temperature_pkg/build/lib
+[2.397s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/room_temperature_pkg/build/lib/room_temperature_pkg
+[2.397s] copying room_temperature_pkg/temp_subscriber.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/room_temperature_pkg/build/lib/room_temperature_pkg
+[2.397s] copying room_temperature_pkg/__init__.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/room_temperature_pkg/build/lib/room_temperature_pkg
+[2.397s] copying room_temperature_pkg/temp_publisher.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/room_temperature_pkg/build/lib/room_temperature_pkg
+[2.397s] running install
+[2.397s] running install_lib
+[2.398s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/lib/python3.8/site-packages/room_temperature_pkg
+[2.398s] copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/room_temperature_pkg/build/lib/room_temperature_pkg/temp_subscriber.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/lib/python3.8/site-packages/room_temperature_pkg
+[2.401s] copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/room_temperature_pkg/build/lib/room_temperature_pkg/__init__.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/lib/python3.8/site-packages/room_temperature_pkg
+[2.403s] copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/room_temperature_pkg/build/lib/room_temperature_pkg/temp_publisher.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/lib/python3.8/site-packages/room_temperature_pkg
+[2.404s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/lib/python3.8/site-packages/room_temperature_pkg/temp_subscriber.py to temp_subscriber.cpython-38.pyc
+[2.404s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/lib/python3.8/site-packages/room_temperature_pkg/__init__.py to __init__.cpython-38.pyc
+[2.406s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/lib/python3.8/site-packages/room_temperature_pkg/temp_publisher.py to temp_publisher.cpython-38.pyc
+[2.406s] running install_data
+[2.406s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/share/ament_index
+[2.406s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/share/ament_index/resource_index
+[2.407s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/share/ament_index/resource_index/packages
+[2.407s] copying resource/room_temperature_pkg -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/share/ament_index/resource_index/packages
+[2.407s] copying package.xml -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/share/room_temperature_pkg
+[2.407s] copying launch/room_temperature_launch.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/share/room_temperature_pkg
+[2.407s] running install_egg_info
+[2.409s] Copying ../../build/room_temperature_pkg/room_temperature_pkg.egg-info to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/lib/python3.8/site-packages/room_temperature_pkg-0.0.0-py3.8.egg-info
+[2.412s] running install_scripts
+[2.478s] Installing temp_publisher script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/lib/room_temperature_pkg
+[2.479s] Installing temp_subscriber script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/lib/room_temperature_pkg
+[2.479s] writing list of installed files to '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/room_temperature_pkg/install.log'
+[3.118s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/room_temperature_pkg' returned '0': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/room_temperature_pkg/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/room_temperature_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/room_temperature_pkg build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/room_temperature_pkg/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/room_temperature_pkg/install.log --install-scripts $base/lib/room_temperature_pkg --single-version-externally-managed

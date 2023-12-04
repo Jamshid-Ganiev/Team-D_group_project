@@ -1,0 +1,63 @@
+[1.493s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/logging_monitoring': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/logging_monitoring build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/install.log --install-scripts $base/lib/logging_monitoring --single-version-externally-managed
+[1.762s] running egg_info
+[1.764s] creating ../../build/logging_monitoring/logging_monitoring.egg-info
+[1.764s] writing ../../build/logging_monitoring/logging_monitoring.egg-info/PKG-INFO
+[1.765s] writing dependency_links to ../../build/logging_monitoring/logging_monitoring.egg-info/dependency_links.txt
+[1.765s] writing entry points to ../../build/logging_monitoring/logging_monitoring.egg-info/entry_points.txt
+[1.771s] writing requirements to ../../build/logging_monitoring/logging_monitoring.egg-info/requires.txt
+[1.772s] writing top-level names to ../../build/logging_monitoring/logging_monitoring.egg-info/top_level.txt
+[1.774s] writing manifest file '../../build/logging_monitoring/logging_monitoring.egg-info/SOURCES.txt'
+[1.854s] reading manifest file '../../build/logging_monitoring/logging_monitoring.egg-info/SOURCES.txt'
+[1.855s] writing manifest file '../../build/logging_monitoring/logging_monitoring.egg-info/SOURCES.txt'
+[1.856s] running build
+[1.856s] running build_py
+[1.856s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build
+[1.856s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib
+[1.856s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib/logging_monitoring
+[1.856s] copying logging_monitoring/obstacle_avoidance.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib/logging_monitoring
+[1.857s] copying logging_monitoring/battery_power_node.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib/logging_monitoring
+[1.858s] copying logging_monitoring/__init__.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib/logging_monitoring
+[1.860s] copying logging_monitoring/sensor_data_simulator.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib/logging_monitoring
+[1.860s] copying logging_monitoring/gesture_recognition_monitor_node.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib/logging_monitoring
+[1.861s] copying logging_monitoring/emotion_recognition.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib/logging_monitoring
+[1.861s] copying logging_monitoring/logging_node.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib/logging_monitoring
+[1.861s] copying logging_monitoring/voice_recognition_monitor_node.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib/logging_monitoring
+[1.861s] running install
+[1.861s] running install_lib
+[1.862s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring
+[1.862s] copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib/logging_monitoring/obstacle_avoidance.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring
+[1.863s] copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib/logging_monitoring/battery_power_node.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring
+[1.863s] copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib/logging_monitoring/__init__.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring
+[1.863s] copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib/logging_monitoring/sensor_data_simulator.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring
+[1.864s] copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib/logging_monitoring/gesture_recognition_monitor_node.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring
+[1.864s] copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib/logging_monitoring/emotion_recognition.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring
+[1.864s] copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib/logging_monitoring/logging_node.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring
+[1.864s] copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build/lib/logging_monitoring/voice_recognition_monitor_node.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring
+[1.864s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring/obstacle_avoidance.py to obstacle_avoidance.cpython-38.pyc
+[1.867s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring/battery_power_node.py to battery_power_node.cpython-38.pyc
+[1.867s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring/__init__.py to __init__.cpython-38.pyc
+[1.867s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring/sensor_data_simulator.py to sensor_data_simulator.cpython-38.pyc
+[1.868s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring/gesture_recognition_monitor_node.py to gesture_recognition_monitor_node.cpython-38.pyc
+[1.869s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring/emotion_recognition.py to emotion_recognition.cpython-38.pyc
+[1.869s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring/logging_node.py to logging_node.cpython-38.pyc
+[1.870s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring/voice_recognition_monitor_node.py to voice_recognition_monitor_node.cpython-38.pyc
+[1.871s] running install_data
+[1.872s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/share
+[1.872s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/share/ament_index
+[1.872s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/share/ament_index/resource_index
+[1.873s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/share/ament_index/resource_index/packages
+[1.873s] copying resource/logging_monitoring -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/share/ament_index/resource_index/packages
+[1.873s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/share/logging_monitoring
+[1.873s] copying package.xml -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/share/logging_monitoring
+[1.873s] running install_egg_info
+[1.874s] Copying ../../build/logging_monitoring/logging_monitoring.egg-info to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring-0.0.0-py3.8.egg-info
+[1.879s] running install_scripts
+[1.909s] Installing battery_power_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+[1.910s] Installing error_warning_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+[1.910s] Installing localization_mapping_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+[1.910s] Installing logging_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+[1.910s] Installing navigation_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+[1.911s] Installing sensor_data_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+[1.911s] Installing system_health_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+[1.912s] writing list of installed files to '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/install.log'
+[1.969s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/logging_monitoring' returned '0': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/logging_monitoring build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/install.log --install-scripts $base/lib/logging_monitoring --single-version-externally-managed

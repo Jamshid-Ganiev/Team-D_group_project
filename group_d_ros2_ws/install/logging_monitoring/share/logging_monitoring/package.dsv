@@ -1,0 +1,3 @@
+source;share/logging_monitoring/hook/pythonpath.ps1
+source;share/logging_monitoring/hook/pythonpath.dsv
+source;share/logging_monitoring/hook/pythonpath.sh

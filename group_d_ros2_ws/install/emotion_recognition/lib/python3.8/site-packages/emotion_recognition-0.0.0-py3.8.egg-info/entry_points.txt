@@ -1,0 +1,5 @@
+[console_scripts]
+camera_node = emotion_recognition.camera_node:main
+emotion_cli = emotion_recognition.cli:cli
+emotion_recognition_node = emotion_recognition.emotion_recognition_node:main
+

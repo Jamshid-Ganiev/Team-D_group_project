@@ -1,0 +1,6 @@
+{
+  "package_name": "gesture_interface",
+  "non_idl_tuples": [
+    "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/gesture_interface:msg/GestureTopic.msg"
+  ]
+}

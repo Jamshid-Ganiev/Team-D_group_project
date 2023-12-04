@@ -1,0 +1,44 @@
+running egg_info
+creating ../../build/gesture_pub_sub/gesture_pub_sub.egg-info
+writing ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/PKG-INFO
+writing dependency_links to ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/dependency_links.txt
+writing entry points to ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/entry_points.txt
+writing requirements to ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/requires.txt
+writing top-level names to ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/top_level.txt
+writing manifest file '../../build/gesture_pub_sub/gesture_pub_sub.egg-info/SOURCES.txt'
+reading manifest file '../../build/gesture_pub_sub/gesture_pub_sub.egg-info/SOURCES.txt'
+writing manifest file '../../build/gesture_pub_sub/gesture_pub_sub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/build
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/build/lib
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/build/lib/gesture_pub_sub
+copying gesture_pub_sub/ges_sub_turtlesim.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/build/lib/gesture_pub_sub
+copying gesture_pub_sub/ges_pub.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/build/lib/gesture_pub_sub
+copying gesture_pub_sub/gesture_detector.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/build/lib/gesture_pub_sub
+copying gesture_pub_sub/__init__.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/build/lib/gesture_pub_sub
+running install
+running install_lib
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages/gesture_pub_sub
+copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/build/lib/gesture_pub_sub/ges_sub_turtlesim.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages/gesture_pub_sub
+copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/build/lib/gesture_pub_sub/ges_pub.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages/gesture_pub_sub
+copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/build/lib/gesture_pub_sub/gesture_detector.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages/gesture_pub_sub
+copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/build/lib/gesture_pub_sub/__init__.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages/gesture_pub_sub
+byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages/gesture_pub_sub/ges_sub_turtlesim.py to ges_sub_turtlesim.cpython-38.pyc
+byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages/gesture_pub_sub/ges_pub.py to ges_pub.cpython-38.pyc
+byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages/gesture_pub_sub/gesture_detector.py to gesture_detector.cpython-38.pyc
+byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages/gesture_pub_sub/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/ament_index
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/ament_index/resource_index
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/ament_index/resource_index/packages
+copying resource/gesture_pub_sub -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/ament_index/resource_index/packages
+copying package.xml -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/gesture_pub_sub
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/gesture_pub_sub/launch
+copying launch/gesture_turtlesim_launch.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/gesture_pub_sub/launch
+running install_egg_info
+Copying ../../build/gesture_pub_sub/gesture_pub_sub.egg-info to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages/gesture_pub_sub-0.0.0-py3.8.egg-info
+running install_scripts
+Installing gesture_publisher script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/gesture_pub_sub
+Installing gesture_subscriber script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/gesture_pub_sub
+writing list of installed files to '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/install.log'

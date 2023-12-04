@@ -1,0 +1,9 @@
+[console_scripts]
+battery_power_node = logging_monitoring.battery_power_node:main
+error_warning_node = logging_monitoring.error_warning_node:main
+localization_mapping_node = logging_monitoring.localization_mapping_node:main
+logging_node = logging_monitoring.logging_node:main
+navigation_node = logging_monitoring.navigation_node:main
+sensor_data_node = logging_monitoring.sensor_data_node:main
+system_health_node = logging_monitoring.system_health_node:main
+

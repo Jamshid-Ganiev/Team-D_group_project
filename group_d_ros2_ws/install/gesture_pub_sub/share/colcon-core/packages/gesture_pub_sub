@@ -1,0 +1,1 @@
+cam_interface:cam_pub_sub:cv_bridge:gesture_interface:opencv-python:rclpy:sensor_msgs

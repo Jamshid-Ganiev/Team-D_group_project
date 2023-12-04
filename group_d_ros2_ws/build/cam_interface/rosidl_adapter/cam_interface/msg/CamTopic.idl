@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cam_interface/msg/CamTopic.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module cam_interface {
+  module msg {
+    struct CamTopic {
+      @verbatim (language="comment", text=
+        "# top publish camera or image data")
+      sensor_msgs::msg::Image image_data;
+    };
+  };
+};

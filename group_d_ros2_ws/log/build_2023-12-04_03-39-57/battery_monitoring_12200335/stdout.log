@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info
+writing ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/PKG-INFO
+writing dependency_links to ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/dependency_links.txt
+writing entry points to ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/entry_points.txt
+writing requirements to ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/requires.txt
+writing top-level names to ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/top_level.txt
+writing manifest file '../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/SOURCES.txt'
+reading manifest file '../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/SOURCES.txt'
+writing manifest file '../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/build
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/build/lib
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/build/lib/battery_monitoring_12200335
+copying battery_monitoring_12200335/__init__.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/build/lib/battery_monitoring_12200335
+copying battery_monitoring_12200335/battery_state_checker.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/build/lib/battery_monitoring_12200335
+running install
+running install_lib
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages/battery_monitoring_12200335
+copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/build/lib/battery_monitoring_12200335/__init__.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages/battery_monitoring_12200335
+copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/build/lib/battery_monitoring_12200335/battery_state_checker.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages/battery_monitoring_12200335
+byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages/battery_monitoring_12200335/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages/battery_monitoring_12200335/battery_state_checker.py to battery_state_checker.cpython-38.pyc
+running install_data
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/ament_index
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/ament_index/resource_index
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/ament_index/resource_index/packages
+copying resource/battery_monitoring_12200335 -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/ament_index/resource_index/packages
+copying package.xml -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/battery_monitoring_12200335
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/battery_monitoring_12200335/launch
+copying launch/battery.launch.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/battery_monitoring_12200335/launch
+running install_egg_info
+Copying ../../build/battery_monitoring_12200335/battery_monitoring_12200335.egg-info to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages/battery_monitoring_12200335-0.0.0-py3.8.egg-info
+running install_scripts
+Installing battery_checker script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/lib/battery_monitoring_12200335
+writing list of installed files to '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/install.log'

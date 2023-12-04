@@ -1,0 +1,39 @@
+[1.756s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/emotion_recognition': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/emotion_recognition build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/install.log --single-version-externally-managed
+[2.050s] running egg_info
+[2.051s] creating ../../build/emotion_recognition/emotion_recognition.egg-info
+[2.051s] writing ../../build/emotion_recognition/emotion_recognition.egg-info/PKG-INFO
+[2.052s] writing dependency_links to ../../build/emotion_recognition/emotion_recognition.egg-info/dependency_links.txt
+[2.053s] writing entry points to ../../build/emotion_recognition/emotion_recognition.egg-info/entry_points.txt
+[2.053s] writing requirements to ../../build/emotion_recognition/emotion_recognition.egg-info/requires.txt
+[2.053s] writing top-level names to ../../build/emotion_recognition/emotion_recognition.egg-info/top_level.txt
+[2.055s] writing manifest file '../../build/emotion_recognition/emotion_recognition.egg-info/SOURCES.txt'
+[2.098s] reading manifest file '../../build/emotion_recognition/emotion_recognition.egg-info/SOURCES.txt'
+[2.099s] writing manifest file '../../build/emotion_recognition/emotion_recognition.egg-info/SOURCES.txt'
+[2.099s] running build
+[2.100s] running build_py
+[2.100s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/build
+[2.100s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/build/lib
+[2.100s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/build/lib/emotion_recognition
+[2.100s] copying emotion_recognition/emotion_recognition_node.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/build/lib/emotion_recognition
+[2.101s] copying emotion_recognition/__init__.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/build/lib/emotion_recognition
+[2.101s] copying emotion_recognition/camera_node.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/build/lib/emotion_recognition
+[2.101s] copying emotion_recognition/cli.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/build/lib/emotion_recognition
+[2.102s] running install
+[2.103s] running install_lib
+[2.104s] creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages/emotion_recognition
+[2.105s] copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/build/lib/emotion_recognition/emotion_recognition_node.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages/emotion_recognition
+[2.105s] copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/build/lib/emotion_recognition/__init__.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages/emotion_recognition
+[2.105s] copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/build/lib/emotion_recognition/camera_node.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages/emotion_recognition
+[2.105s] copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/build/lib/emotion_recognition/cli.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages/emotion_recognition
+[2.105s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages/emotion_recognition/emotion_recognition_node.py to emotion_recognition_node.cpython-38.pyc
+[2.109s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages/emotion_recognition/__init__.py to __init__.cpython-38.pyc
+[2.109s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages/emotion_recognition/camera_node.py to camera_node.cpython-38.pyc
+[2.112s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages/emotion_recognition/cli.py to cli.cpython-38.pyc
+[2.115s] running install_egg_info
+[2.118s] Copying ../../build/emotion_recognition/emotion_recognition.egg-info to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages/emotion_recognition-0.0.0-py3.8.egg-info
+[2.120s] running install_scripts
+[2.239s] Installing camera_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/emotion_recognition
+[2.240s] Installing emotion_cli script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/emotion_recognition
+[2.241s] Installing emotion_recognition_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/emotion_recognition
+[2.245s] writing list of installed files to '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/install.log'
+[2.371s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/emotion_recognition' returned '0': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/emotion_recognition build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/install.log --single-version-externally-managed

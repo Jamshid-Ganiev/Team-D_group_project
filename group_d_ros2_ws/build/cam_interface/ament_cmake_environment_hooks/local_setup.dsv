@@ -1,0 +1,4 @@
+source;share/cam_interface/environment/ament_prefix_path.sh
+source;share/cam_interface/environment/library_path.sh
+source;share/cam_interface/environment/path.sh
+source;share/cam_interface/environment/pythonpath.sh

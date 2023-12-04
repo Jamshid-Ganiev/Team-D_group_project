@@ -1,0 +1,4 @@
+[console_scripts]
+gesture_publisher = gesture_pub_sub.ges_pub:main
+gesture_subscriber = gesture_pub_sub.ges_sub_turtlesim:main
+

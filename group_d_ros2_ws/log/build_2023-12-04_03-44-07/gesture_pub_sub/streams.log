@@ -1,0 +1,26 @@
+[2.017s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/gesture_pub_sub': AMENT_PREFIX_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub:${AMENT_PREFIX_PATH} PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gesture_pub_sub build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/install.log --install-scripts $base/lib/gesture_pub_sub --single-version-externally-managed
+[2.364s] running egg_info
+[2.365s] writing ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/PKG-INFO
+[2.365s] writing dependency_links to ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/dependency_links.txt
+[2.366s] writing entry points to ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/entry_points.txt
+[2.368s] writing requirements to ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/requires.txt
+[2.368s] writing top-level names to ../../build/gesture_pub_sub/gesture_pub_sub.egg-info/top_level.txt
+[2.415s] reading manifest file '../../build/gesture_pub_sub/gesture_pub_sub.egg-info/SOURCES.txt'
+[2.417s] writing manifest file '../../build/gesture_pub_sub/gesture_pub_sub.egg-info/SOURCES.txt'
+[2.418s] running build
+[2.418s] running build_py
+[2.423s] running install
+[2.424s] running install_lib
+[2.427s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages/gesture_pub_sub/ges_sub_turtlesim.py to ges_sub_turtlesim.cpython-38.pyc
+[2.429s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages/gesture_pub_sub/ges_pub.py to ges_pub.cpython-38.pyc
+[2.432s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages/gesture_pub_sub/gesture_detector.py to gesture_detector.cpython-38.pyc
+[2.433s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages/gesture_pub_sub/__init__.py to __init__.cpython-38.pyc
+[2.434s] running install_data
+[2.435s] running install_egg_info
+[2.437s] removing '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages/gesture_pub_sub-0.0.0-py3.8.egg-info' (and everything under it)
+[2.452s] Copying ../../build/gesture_pub_sub/gesture_pub_sub.egg-info to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages/gesture_pub_sub-0.0.0-py3.8.egg-info
+[2.452s] running install_scripts
+[2.494s] Installing gesture_publisher script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/gesture_pub_sub
+[2.495s] Installing gesture_subscriber script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/gesture_pub_sub
+[2.496s] writing list of installed files to '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/install.log'
+[2.547s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/gesture_pub_sub' returned '0': AMENT_PREFIX_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub:${AMENT_PREFIX_PATH} PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gesture_pub_sub build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/install.log --install-scripts $base/lib/gesture_pub_sub --single-version-externally-managed

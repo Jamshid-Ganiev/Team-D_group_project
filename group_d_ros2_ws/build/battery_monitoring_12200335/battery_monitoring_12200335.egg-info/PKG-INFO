@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: battery-monitoring-12200335
+Version: 0.0.0
+Summary: Battery monitoring script, subscribing to a custom battery state topic, and displaying percentage and charging status.
+Home-page: UNKNOWN
+Maintainer: Jamshid Ganiev
+Maintainer-email: 12200335@inha.edu
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN

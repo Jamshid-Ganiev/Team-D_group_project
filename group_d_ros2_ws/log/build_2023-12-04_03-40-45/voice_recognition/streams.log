@@ -1,0 +1,22 @@
+[1.977s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/voice_recognition': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice_recognition build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/install.log --install-scripts $base/lib/voice_recognition --single-version-externally-managed
+[2.315s] running egg_info
+[2.316s] writing ../../build/voice_recognition/voice_recognition.egg-info/PKG-INFO
+[2.317s] writing dependency_links to ../../build/voice_recognition/voice_recognition.egg-info/dependency_links.txt
+[2.319s] writing entry points to ../../build/voice_recognition/voice_recognition.egg-info/entry_points.txt
+[2.320s] writing requirements to ../../build/voice_recognition/voice_recognition.egg-info/requires.txt
+[2.321s] writing top-level names to ../../build/voice_recognition/voice_recognition.egg-info/top_level.txt
+[2.365s] reading manifest file '../../build/voice_recognition/voice_recognition.egg-info/SOURCES.txt'
+[2.367s] writing manifest file '../../build/voice_recognition/voice_recognition.egg-info/SOURCES.txt'
+[2.369s] running build
+[2.369s] running build_py
+[2.370s] running install
+[2.372s] running install_lib
+[2.375s] running install_data
+[2.377s] running install_egg_info
+[2.394s] removing '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/python3.8/site-packages/voice_recognition-0.0.0-py3.8.egg-info' (and everything under it)
+[2.394s] Copying ../../build/voice_recognition/voice_recognition.egg-info to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/python3.8/site-packages/voice_recognition-0.0.0-py3.8.egg-info
+[2.394s] running install_scripts
+[2.421s] Installing client_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/voice_recognition
+[2.422s] Installing server_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/voice_recognition
+[2.424s] writing list of installed files to '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/install.log'
+[2.533s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/voice_recognition' returned '0': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice_recognition build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/install.log --install-scripts $base/lib/voice_recognition --single-version-externally-managed

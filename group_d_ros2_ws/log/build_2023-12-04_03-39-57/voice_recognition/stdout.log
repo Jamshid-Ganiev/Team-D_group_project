@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/voice_recognition/voice_recognition.egg-info
+writing ../../build/voice_recognition/voice_recognition.egg-info/PKG-INFO
+writing dependency_links to ../../build/voice_recognition/voice_recognition.egg-info/dependency_links.txt
+writing entry points to ../../build/voice_recognition/voice_recognition.egg-info/entry_points.txt
+writing requirements to ../../build/voice_recognition/voice_recognition.egg-info/requires.txt
+writing top-level names to ../../build/voice_recognition/voice_recognition.egg-info/top_level.txt
+writing manifest file '../../build/voice_recognition/voice_recognition.egg-info/SOURCES.txt'
+reading manifest file '../../build/voice_recognition/voice_recognition.egg-info/SOURCES.txt'
+writing manifest file '../../build/voice_recognition/voice_recognition.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/build
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/build/lib
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/build/lib/voice_recognition
+copying voice_recognition/server.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/build/lib/voice_recognition
+copying voice_recognition/client.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/build/lib/voice_recognition
+copying voice_recognition/__init__.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/build/lib/voice_recognition
+running install
+running install_lib
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/python3.8/site-packages/voice_recognition
+copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/build/lib/voice_recognition/server.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/python3.8/site-packages/voice_recognition
+copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/build/lib/voice_recognition/client.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/python3.8/site-packages/voice_recognition
+copying /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/build/lib/voice_recognition/__init__.py -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/python3.8/site-packages/voice_recognition
+byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/python3.8/site-packages/voice_recognition/server.py to server.cpython-38.pyc
+byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/python3.8/site-packages/voice_recognition/client.py to client.cpython-38.pyc
+byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/python3.8/site-packages/voice_recognition/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/share/ament_index
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/share/ament_index/resource_index
+creating /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/share/ament_index/resource_index/packages
+copying resource/voice_recognition -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/share/ament_index/resource_index/packages
+copying package.xml -> /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/share/voice_recognition
+running install_egg_info
+Copying ../../build/voice_recognition/voice_recognition.egg-info to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/python3.8/site-packages/voice_recognition-0.0.0-py3.8.egg-info
+running install_scripts
+Installing client_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/voice_recognition
+Installing server_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/voice_recognition
+writing list of installed files to '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/install.log'

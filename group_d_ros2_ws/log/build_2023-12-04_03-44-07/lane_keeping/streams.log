@@ -1,0 +1,21 @@
+[1.854s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/lane_keeping': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/lane_keeping/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lane_keeping build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/lane_keeping/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/lane_keeping/install.log --install-scripts $base/lib/lane_keeping --single-version-externally-managed
+[2.243s] running egg_info
+[2.244s] writing ../../build/lane_keeping/lane_keeping.egg-info/PKG-INFO
+[2.245s] writing dependency_links to ../../build/lane_keeping/lane_keeping.egg-info/dependency_links.txt
+[2.246s] writing entry points to ../../build/lane_keeping/lane_keeping.egg-info/entry_points.txt
+[2.247s] writing requirements to ../../build/lane_keeping/lane_keeping.egg-info/requires.txt
+[2.247s] writing top-level names to ../../build/lane_keeping/lane_keeping.egg-info/top_level.txt
+[2.293s] reading manifest file '../../build/lane_keeping/lane_keeping.egg-info/SOURCES.txt'
+[2.295s] writing manifest file '../../build/lane_keeping/lane_keeping.egg-info/SOURCES.txt'
+[2.296s] running build
+[2.296s] running build_py
+[2.297s] running install
+[2.299s] running install_lib
+[2.302s] running install_data
+[2.304s] running install_egg_info
+[2.310s] removing '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/lib/python3.8/site-packages/lane_keeping-0.0.0-py3.8.egg-info' (and everything under it)
+[2.312s] Copying ../../build/lane_keeping/lane_keeping.egg-info to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/lib/python3.8/site-packages/lane_keeping-0.0.0-py3.8.egg-info
+[2.314s] running install_scripts
+[2.344s] Installing lane_keeping script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/lib/lane_keeping
+[2.346s] writing list of installed files to '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/lane_keeping/install.log'
+[2.432s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/lane_keeping' returned '0': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/lane_keeping/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lane_keeping build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/lane_keeping/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/lane_keeping/install.log --install-scripts $base/lib/lane_keeping --single-version-externally-managed

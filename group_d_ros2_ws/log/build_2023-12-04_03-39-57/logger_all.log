@@ -1,0 +1,645 @@
+[2.013s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.013s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f63aae37a90>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f63aae37a90>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f63aad99d60>)
+[2.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.150s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_monitoring_12200335) by extensions ['ignore', 'ignore_ament_install']
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_monitoring_12200335) by extension 'ignore'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_monitoring_12200335) by extension 'ignore_ament_install'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_monitoring_12200335) by extensions ['colcon_pkg']
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_monitoring_12200335) by extension 'colcon_pkg'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_monitoring_12200335) by extensions ['colcon_meta']
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_monitoring_12200335) by extension 'colcon_meta'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_monitoring_12200335) by extensions ['ros']
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/battery_monitoring_12200335) by extension 'ros'
+[2.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/battery_monitoring_12200335' with type 'ros.ament_python' and name 'battery_monitoring_12200335'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extensions ['ignore', 'ignore_ament_install']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extension 'ignore'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extension 'ignore_ament_install'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extensions ['colcon_pkg']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extension 'colcon_pkg'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extensions ['colcon_meta']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extension 'colcon_meta'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extensions ['ros']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_interface) by extension 'ros'
+[2.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_interface' with type 'ros.ament_cmake' and name 'cam_interface'
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extensions ['ignore', 'ignore_ament_install']
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extension 'ignore'
+[2.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extension 'ignore_ament_install'
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extensions ['colcon_pkg']
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extension 'colcon_pkg'
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extensions ['colcon_meta']
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extension 'colcon_meta'
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extensions ['ros']
+[2.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/cam_pub_sub) by extension 'ros'
+[2.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cam_pub_sub' with type 'ros.ament_python' and name 'cam_pub_sub'
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_recognition) by extensions ['ignore', 'ignore_ament_install']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_recognition) by extension 'ignore'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_recognition) by extension 'ignore_ament_install'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_recognition) by extensions ['colcon_pkg']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_recognition) by extension 'colcon_pkg'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_recognition) by extensions ['colcon_meta']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_recognition) by extension 'colcon_meta'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_recognition) by extensions ['ros']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/emotion_recognition) by extension 'ros'
+[2.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/emotion_recognition' with type 'ros.ament_python' and name 'emotion_recognition'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extensions ['ignore', 'ignore_ament_install']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extension 'ignore'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extension 'ignore_ament_install'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extensions ['colcon_pkg']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extension 'colcon_pkg'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extensions ['colcon_meta']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extension 'colcon_meta'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extensions ['ros']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_interface) by extension 'ros'
+[2.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gesture_interface' with type 'ros.ament_cmake' and name 'gesture_interface'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extensions ['ignore', 'ignore_ament_install']
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extension 'ignore'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extension 'ignore_ament_install'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extensions ['colcon_pkg']
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extension 'colcon_pkg'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extensions ['colcon_meta']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extension 'colcon_meta'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extensions ['ros']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/gesture_pub_sub) by extension 'ros'
+[2.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gesture_pub_sub' with type 'ros.ament_python' and name 'gesture_pub_sub'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_keeping) by extensions ['ignore', 'ignore_ament_install']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_keeping) by extension 'ignore'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_keeping) by extension 'ignore_ament_install'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_keeping) by extensions ['colcon_pkg']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_keeping) by extension 'colcon_pkg'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_keeping) by extensions ['colcon_meta']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_keeping) by extension 'colcon_meta'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_keeping) by extensions ['ros']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/lane_keeping) by extension 'ros'
+[2.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lane_keeping' with type 'ros.ament_python' and name 'lane_keeping'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/logging_monitoring) by extensions ['ignore', 'ignore_ament_install']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/logging_monitoring) by extension 'ignore'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/logging_monitoring) by extension 'ignore_ament_install'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/logging_monitoring) by extensions ['colcon_pkg']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/logging_monitoring) by extension 'colcon_pkg'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/logging_monitoring) by extensions ['colcon_meta']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/logging_monitoring) by extension 'colcon_meta'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/logging_monitoring) by extensions ['ros']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/logging_monitoring) by extension 'ros'
+[2.191s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'src/logging_monitoring': Error(s) in package 'src/logging_monitoring/package.xml':
+Error(s):
+- The manifest of package "logging_monitoring" (with format version 3) must not contain the following tags: executables, launch_scripts, package
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/logging_monitoring) by extensions ['cmake', 'python']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/logging_monitoring) by extension 'cmake'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/logging_monitoring) by extension 'python'
+[2.192s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/logging_monitoring' passes arguments to the setup() function which requires a different identification extension than 'python'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/logging_monitoring) by extensions ['python_setup_py']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/logging_monitoring) by extension 'python_setup_py'
+[2.427s] DEBUG:colcon.colcon_core.package_identification:Package 'src/logging_monitoring' with type 'python' and name 'logging_monitoring'
+[2.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstackle_avoidance) by extensions ['ignore', 'ignore_ament_install']
+[2.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstackle_avoidance) by extension 'ignore'
+[2.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstackle_avoidance) by extension 'ignore_ament_install'
+[2.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstackle_avoidance) by extensions ['colcon_pkg']
+[2.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstackle_avoidance) by extension 'colcon_pkg'
+[2.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstackle_avoidance) by extensions ['colcon_meta']
+[2.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstackle_avoidance) by extension 'colcon_meta'
+[2.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstackle_avoidance) by extensions ['ros']
+[2.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/obstackle_avoidance) by extension 'ros'
+[2.429s] DEBUG:colcon.colcon_core.package_identification:Package 'src/obstackle_avoidance' with type 'ros.ament_python' and name 'obstackle_avoidance'
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_recognition) by extensions ['ignore', 'ignore_ament_install']
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_recognition) by extension 'ignore'
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_recognition) by extension 'ignore_ament_install'
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_recognition) by extensions ['colcon_pkg']
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_recognition) by extension 'colcon_pkg'
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_recognition) by extensions ['colcon_meta']
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_recognition) by extension 'colcon_meta'
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_recognition) by extensions ['ros']
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_recognition) by extension 'ros'
+[2.430s] DEBUG:colcon.colcon_core.package_identification:Package 'src/voice_recognition' with type 'ros.ament_python' and name 'voice_recognition'
+[2.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.724s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/james/colcon_ws/install
+[2.757s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 336 installed packages in /opt/ros/foxy
+[2.760s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.895s] Level 5:colcon.colcon_core.verb:set package 'battery_monitoring_12200335' build argument 'cmake_args' from command line to 'None'
+[2.895s] Level 5:colcon.colcon_core.verb:set package 'battery_monitoring_12200335' build argument 'cmake_target' from command line to 'None'
+[2.895s] Level 5:colcon.colcon_core.verb:set package 'battery_monitoring_12200335' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.895s] Level 5:colcon.colcon_core.verb:set package 'battery_monitoring_12200335' build argument 'cmake_clean_cache' from command line to 'False'
+[2.895s] Level 5:colcon.colcon_core.verb:set package 'battery_monitoring_12200335' build argument 'cmake_clean_first' from command line to 'False'
+[2.895s] Level 5:colcon.colcon_core.verb:set package 'battery_monitoring_12200335' build argument 'cmake_force_configure' from command line to 'False'
+[2.895s] Level 5:colcon.colcon_core.verb:set package 'battery_monitoring_12200335' build argument 'ament_cmake_args' from command line to 'None'
+[2.895s] Level 5:colcon.colcon_core.verb:set package 'battery_monitoring_12200335' build argument 'catkin_cmake_args' from command line to 'None'
+[2.895s] Level 5:colcon.colcon_core.verb:set package 'battery_monitoring_12200335' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.896s] DEBUG:colcon.colcon_core.verb:Building package 'battery_monitoring_12200335' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335', 'merge_install': False, 'path': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/battery_monitoring_12200335', 'symlink_install': False, 'test_result_base': None}
+[2.927s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'cmake_args' from command line to 'None'
+[2.927s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'cmake_target' from command line to 'None'
+[2.928s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.928s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[2.928s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'cmake_clean_first' from command line to 'False'
+[2.928s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'cmake_force_configure' from command line to 'False'
+[2.928s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'ament_cmake_args' from command line to 'None'
+[2.928s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[2.928s] Level 5:colcon.colcon_core.verb:set package 'cam_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.928s] DEBUG:colcon.colcon_core.verb:Building package 'cam_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface', 'merge_install': False, 'path': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/cam_interface', 'symlink_install': False, 'test_result_base': None}
+[2.959s] Level 5:colcon.colcon_core.verb:set package 'emotion_recognition' build argument 'cmake_args' from command line to 'None'
+[2.960s] Level 5:colcon.colcon_core.verb:set package 'emotion_recognition' build argument 'cmake_target' from command line to 'None'
+[2.960s] Level 5:colcon.colcon_core.verb:set package 'emotion_recognition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.960s] Level 5:colcon.colcon_core.verb:set package 'emotion_recognition' build argument 'cmake_clean_cache' from command line to 'False'
+[2.960s] Level 5:colcon.colcon_core.verb:set package 'emotion_recognition' build argument 'cmake_clean_first' from command line to 'False'
+[2.960s] Level 5:colcon.colcon_core.verb:set package 'emotion_recognition' build argument 'cmake_force_configure' from command line to 'False'
+[2.960s] Level 5:colcon.colcon_core.verb:set package 'emotion_recognition' build argument 'ament_cmake_args' from command line to 'None'
+[2.960s] Level 5:colcon.colcon_core.verb:set package 'emotion_recognition' build argument 'catkin_cmake_args' from command line to 'None'
+[2.960s] Level 5:colcon.colcon_core.verb:set package 'emotion_recognition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.960s] DEBUG:colcon.colcon_core.verb:Building package 'emotion_recognition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition', 'merge_install': False, 'path': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/emotion_recognition', 'symlink_install': False, 'test_result_base': None}
+[2.995s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'cmake_args' from command line to 'None'
+[2.995s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'cmake_target' from command line to 'None'
+[2.995s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.995s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[2.996s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'cmake_clean_first' from command line to 'False'
+[2.996s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'cmake_force_configure' from command line to 'False'
+[2.996s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'ament_cmake_args' from command line to 'None'
+[2.996s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[2.996s] Level 5:colcon.colcon_core.verb:set package 'gesture_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.996s] DEBUG:colcon.colcon_core.verb:Building package 'gesture_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface', 'merge_install': False, 'path': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/gesture_interface', 'symlink_install': False, 'test_result_base': None}
+[3.032s] Level 5:colcon.colcon_core.verb:set package 'lane_keeping' build argument 'cmake_args' from command line to 'None'
+[3.032s] Level 5:colcon.colcon_core.verb:set package 'lane_keeping' build argument 'cmake_target' from command line to 'None'
+[3.032s] Level 5:colcon.colcon_core.verb:set package 'lane_keeping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.033s] Level 5:colcon.colcon_core.verb:set package 'lane_keeping' build argument 'cmake_clean_cache' from command line to 'False'
+[3.033s] Level 5:colcon.colcon_core.verb:set package 'lane_keeping' build argument 'cmake_clean_first' from command line to 'False'
+[3.033s] Level 5:colcon.colcon_core.verb:set package 'lane_keeping' build argument 'cmake_force_configure' from command line to 'False'
+[3.033s] Level 5:colcon.colcon_core.verb:set package 'lane_keeping' build argument 'ament_cmake_args' from command line to 'None'
+[3.033s] Level 5:colcon.colcon_core.verb:set package 'lane_keeping' build argument 'catkin_cmake_args' from command line to 'None'
+[3.033s] Level 5:colcon.colcon_core.verb:set package 'lane_keeping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.033s] DEBUG:colcon.colcon_core.verb:Building package 'lane_keeping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/lane_keeping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping', 'merge_install': False, 'path': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/lane_keeping', 'symlink_install': False, 'test_result_base': None}
+[3.065s] Level 5:colcon.colcon_core.verb:set package 'logging_monitoring' build argument 'cmake_args' from command line to 'None'
+[3.065s] Level 5:colcon.colcon_core.verb:set package 'logging_monitoring' build argument 'cmake_target' from command line to 'None'
+[3.065s] Level 5:colcon.colcon_core.verb:set package 'logging_monitoring' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.065s] Level 5:colcon.colcon_core.verb:set package 'logging_monitoring' build argument 'cmake_clean_cache' from command line to 'False'
+[3.065s] Level 5:colcon.colcon_core.verb:set package 'logging_monitoring' build argument 'cmake_clean_first' from command line to 'False'
+[3.065s] Level 5:colcon.colcon_core.verb:set package 'logging_monitoring' build argument 'cmake_force_configure' from command line to 'False'
+[3.065s] Level 5:colcon.colcon_core.verb:set package 'logging_monitoring' build argument 'ament_cmake_args' from command line to 'None'
+[3.065s] Level 5:colcon.colcon_core.verb:set package 'logging_monitoring' build argument 'catkin_cmake_args' from command line to 'None'
+[3.065s] Level 5:colcon.colcon_core.verb:set package 'logging_monitoring' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.065s] DEBUG:colcon.colcon_core.verb:Building package 'logging_monitoring' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring', 'merge_install': False, 'path': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/logging_monitoring', 'symlink_install': False, 'test_result_base': None}
+[3.098s] Level 5:colcon.colcon_core.verb:set package 'obstackle_avoidance' build argument 'cmake_args' from command line to 'None'
+[3.098s] Level 5:colcon.colcon_core.verb:set package 'obstackle_avoidance' build argument 'cmake_target' from command line to 'None'
+[3.098s] Level 5:colcon.colcon_core.verb:set package 'obstackle_avoidance' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.098s] Level 5:colcon.colcon_core.verb:set package 'obstackle_avoidance' build argument 'cmake_clean_cache' from command line to 'False'
+[3.098s] Level 5:colcon.colcon_core.verb:set package 'obstackle_avoidance' build argument 'cmake_clean_first' from command line to 'False'
+[3.098s] Level 5:colcon.colcon_core.verb:set package 'obstackle_avoidance' build argument 'cmake_force_configure' from command line to 'False'
+[3.098s] Level 5:colcon.colcon_core.verb:set package 'obstackle_avoidance' build argument 'ament_cmake_args' from command line to 'None'
+[3.098s] Level 5:colcon.colcon_core.verb:set package 'obstackle_avoidance' build argument 'catkin_cmake_args' from command line to 'None'
+[3.098s] Level 5:colcon.colcon_core.verb:set package 'obstackle_avoidance' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.098s] DEBUG:colcon.colcon_core.verb:Building package 'obstackle_avoidance' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance', 'merge_install': False, 'path': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/obstackle_avoidance', 'symlink_install': False, 'test_result_base': None}
+[3.129s] Level 5:colcon.colcon_core.verb:set package 'voice_recognition' build argument 'cmake_args' from command line to 'None'
+[3.129s] Level 5:colcon.colcon_core.verb:set package 'voice_recognition' build argument 'cmake_target' from command line to 'None'
+[3.129s] Level 5:colcon.colcon_core.verb:set package 'voice_recognition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.129s] Level 5:colcon.colcon_core.verb:set package 'voice_recognition' build argument 'cmake_clean_cache' from command line to 'False'
+[3.129s] Level 5:colcon.colcon_core.verb:set package 'voice_recognition' build argument 'cmake_clean_first' from command line to 'False'
+[3.129s] Level 5:colcon.colcon_core.verb:set package 'voice_recognition' build argument 'cmake_force_configure' from command line to 'False'
+[3.129s] Level 5:colcon.colcon_core.verb:set package 'voice_recognition' build argument 'ament_cmake_args' from command line to 'None'
+[3.129s] Level 5:colcon.colcon_core.verb:set package 'voice_recognition' build argument 'catkin_cmake_args' from command line to 'None'
+[3.129s] Level 5:colcon.colcon_core.verb:set package 'voice_recognition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.129s] DEBUG:colcon.colcon_core.verb:Building package 'voice_recognition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition', 'merge_install': False, 'path': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/voice_recognition', 'symlink_install': False, 'test_result_base': None}
+[3.175s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'cmake_args' from command line to 'None'
+[3.175s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'cmake_target' from command line to 'None'
+[3.175s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.175s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[3.175s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'cmake_clean_first' from command line to 'False'
+[3.175s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'cmake_force_configure' from command line to 'False'
+[3.175s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'ament_cmake_args' from command line to 'None'
+[3.175s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[3.175s] Level 5:colcon.colcon_core.verb:set package 'cam_pub_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.175s] DEBUG:colcon.colcon_core.verb:Building package 'cam_pub_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub', 'merge_install': False, 'path': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/cam_pub_sub', 'symlink_install': False, 'test_result_base': None}
+[3.209s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'cmake_args' from command line to 'None'
+[3.209s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'cmake_target' from command line to 'None'
+[3.209s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.209s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[3.209s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'cmake_clean_first' from command line to 'False'
+[3.209s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'cmake_force_configure' from command line to 'False'
+[3.209s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'ament_cmake_args' from command line to 'None'
+[3.209s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[3.209s] Level 5:colcon.colcon_core.verb:set package 'gesture_pub_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.209s] DEBUG:colcon.colcon_core.verb:Building package 'gesture_pub_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub', 'merge_install': False, 'path': '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/gesture_pub_sub', 'symlink_install': False, 'test_result_base': None}
+[3.249s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.286s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/cam_interface' with build type 'ament_cmake'
+[3.286s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/cam_interface'
+[3.336s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.336s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.336s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.460s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/gesture_interface' with build type 'ament_cmake'
+[3.460s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/gesture_interface'
+[3.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/cam_interface -DCMAKE_INSTALL_PREFIX=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface
+[3.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/gesture_interface -DCMAKE_INSTALL_PREFIX=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface
+[7.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface' returned '0': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/gesture_interface -DCMAKE_INSTALL_PREFIX=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface
+[7.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake --build /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface -- -j2 -l2
+[9.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface' returned '0': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/cam_interface -DCMAKE_INSTALL_PREFIX=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface
+[9.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake --build /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface -- -j2 -l2
+[23.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface' returned '0': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake --build /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface -- -j2 -l2
+[24.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake --install /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface
+[24.226s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gesture_interface)
+[24.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface' returned '0': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake --install /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface
+[24.335s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface' for CMake module files
+[24.336s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface' for CMake config files
+[24.336s] Level 1:colcon.colcon_core.shell:create_environment_hook('gesture_interface', 'cmake_prefix_path')
+[24.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/cmake_prefix_path.ps1'
+[24.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/cmake_prefix_path.dsv'
+[24.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/cmake_prefix_path.sh'
+[24.448s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib'
+[24.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('gesture_interface', 'ld_library_path_lib')
+[24.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/ld_library_path_lib.ps1'
+[24.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/ld_library_path_lib.dsv'
+[24.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/ld_library_path_lib.sh'
+[24.537s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/bin'
+[24.537s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/pkgconfig/gesture_interface.pc'
+[24.537s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/python3.8/site-packages'
+[24.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('gesture_interface', 'pythonpath')
+[24.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/pythonpath.ps1'
+[24.637s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/pythonpath.dsv'
+[24.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/pythonpath.sh'
+[24.638s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/bin'
+[24.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/package.ps1'
+[24.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/package.dsv'
+[24.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/package.sh'
+[24.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/package.bash'
+[24.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/package.zsh'
+[24.804s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/colcon-core/packages/gesture_interface)
+[25.098s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gesture_interface)
+[25.227s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface' for CMake module files
+[25.228s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface' for CMake config files
+[25.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('gesture_interface', 'cmake_prefix_path')
+[25.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/cmake_prefix_path.ps1'
+[25.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/cmake_prefix_path.dsv'
+[25.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/cmake_prefix_path.sh'
+[25.365s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib'
+[25.366s] Level 1:colcon.colcon_core.shell:create_environment_hook('gesture_interface', 'ld_library_path_lib')
+[25.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/ld_library_path_lib.ps1'
+[25.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/ld_library_path_lib.dsv'
+[25.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/ld_library_path_lib.sh'
+[25.414s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/bin'
+[25.414s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/pkgconfig/gesture_interface.pc'
+[25.414s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/python3.8/site-packages'
+[25.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('gesture_interface', 'pythonpath')
+[25.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/pythonpath.ps1'
+[25.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/pythonpath.dsv'
+[25.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/hook/pythonpath.sh'
+[25.489s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/bin'
+[25.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/package.ps1'
+[25.546s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/package.dsv'
+[25.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/package.sh'
+[25.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/package.bash'
+[25.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/package.zsh'
+[25.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/colcon-core/packages/gesture_interface)
+[25.557s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/battery_monitoring_12200335' with build type 'ament_python'
+[25.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_monitoring_12200335', 'ament_prefix_path')
+[25.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/battery_monitoring_12200335/hook/ament_prefix_path.ps1'
+[25.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/battery_monitoring_12200335/hook/ament_prefix_path.dsv'
+[25.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/battery_monitoring_12200335/hook/ament_prefix_path.sh'
+[25.707s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[25.707s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[26.806s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/battery_monitoring_12200335'
+[26.891s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[26.891s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[27.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface' returned '0': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake --build /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface -- -j2 -l2
+[27.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake --install /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface
+[27.489s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam_interface)
+[27.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface' returned '0': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake --install /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface
+[27.563s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface' for CMake module files
+[27.564s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface' for CMake config files
+[27.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_interface', 'cmake_prefix_path')
+[27.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/cmake_prefix_path.ps1'
+[27.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/cmake_prefix_path.dsv'
+[27.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/cmake_prefix_path.sh'
+[27.661s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib'
+[27.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_interface', 'ld_library_path_lib')
+[27.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/ld_library_path_lib.ps1'
+[27.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/ld_library_path_lib.dsv'
+[27.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/ld_library_path_lib.sh'
+[27.806s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/bin'
+[27.806s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/pkgconfig/cam_interface.pc'
+[27.806s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages'
+[27.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_interface', 'pythonpath')
+[27.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/pythonpath.ps1'
+[27.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/pythonpath.dsv'
+[27.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/pythonpath.sh'
+[27.954s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/bin'
+[28.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/package.ps1'
+[28.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/package.dsv'
+[28.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/package.sh'
+[28.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/package.bash'
+[28.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/package.zsh'
+[28.120s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/colcon-core/packages/cam_interface)
+[28.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/battery_monitoring_12200335': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/battery_monitoring_12200335 build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/install.log --install-scripts $base/lib/battery_monitoring_12200335 --single-version-externally-managed
+[28.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam_interface)
+[28.492s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface' for CMake module files
+[28.493s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface' for CMake config files
+[28.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_interface', 'cmake_prefix_path')
+[28.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/cmake_prefix_path.ps1'
+[28.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/cmake_prefix_path.dsv'
+[28.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/cmake_prefix_path.sh'
+[28.534s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib'
+[28.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_interface', 'ld_library_path_lib')
+[28.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/ld_library_path_lib.ps1'
+[28.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/ld_library_path_lib.dsv'
+[28.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/ld_library_path_lib.sh'
+[28.582s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/bin'
+[28.582s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/pkgconfig/cam_interface.pc'
+[28.583s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages'
+[28.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_interface', 'pythonpath')
+[28.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/pythonpath.ps1'
+[28.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/pythonpath.dsv'
+[28.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/hook/pythonpath.sh'
+[28.684s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/bin'
+[28.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/package.ps1'
+[28.738s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/package.dsv'
+[28.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/package.sh'
+[28.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/package.bash'
+[28.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/package.zsh'
+[28.743s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/colcon-core/packages/cam_interface)
+[28.747s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/cam_pub_sub' with build type 'ament_python'
+[28.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_pub_sub', 'ament_prefix_path')
+[28.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/share/cam_pub_sub/hook/ament_prefix_path.ps1'
+[28.804s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/share/cam_pub_sub/hook/ament_prefix_path.dsv'
+[28.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/share/cam_pub_sub/hook/ament_prefix_path.sh'
+[28.956s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.956s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[29.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/battery_monitoring_12200335' returned '0': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/battery_monitoring_12200335 build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/battery_monitoring_12200335/install.log --install-scripts $base/lib/battery_monitoring_12200335 --single-version-externally-managed
+[29.290s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335' for CMake module files
+[29.290s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335' for CMake config files
+[29.291s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/lib'
+[29.291s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/bin'
+[29.291s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/lib/pkgconfig/battery_monitoring_12200335.pc'
+[29.291s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/lib/python3.8/site-packages'
+[29.291s] Level 1:colcon.colcon_core.shell:create_environment_hook('battery_monitoring_12200335', 'pythonpath')
+[29.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/battery_monitoring_12200335/hook/pythonpath.ps1'
+[29.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/battery_monitoring_12200335/hook/pythonpath.dsv'
+[29.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/battery_monitoring_12200335/hook/pythonpath.sh'
+[29.383s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/bin'
+[29.383s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(battery_monitoring_12200335)
+[29.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/battery_monitoring_12200335/package.ps1'
+[29.457s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/battery_monitoring_12200335/package.dsv'
+[29.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/battery_monitoring_12200335/package.sh'
+[29.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/battery_monitoring_12200335/package.bash'
+[29.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/battery_monitoring_12200335/package.zsh'
+[29.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/battery_monitoring_12200335/share/colcon-core/packages/battery_monitoring_12200335)
+[29.462s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/emotion_recognition' with build type 'ament_python'
+[29.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('emotion_recognition', 'ament_prefix_path')
+[29.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/share/emotion_recognition/hook/ament_prefix_path.ps1'
+[29.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/share/emotion_recognition/hook/ament_prefix_path.dsv'
+[29.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/share/emotion_recognition/hook/ament_prefix_path.sh'
+[29.585s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[29.585s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[30.012s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/cam_pub_sub'
+[30.046s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[30.046s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[30.402s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'emotion_recognition' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[30.403s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'emotion_recognition' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[30.404s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/emotion_recognition'
+[30.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[30.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/emotion_recognition': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/emotion_recognition build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/install.log --single-version-externally-managed
+[31.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/cam_pub_sub': AMENT_PREFIX_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface LD_LIBRARY_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/install.log --single-version-externally-managed
+[31.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/emotion_recognition' returned '0': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/emotion_recognition build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/install.log --single-version-externally-managed
+[31.918s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition' for CMake module files
+[31.919s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition' for CMake config files
+[31.920s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib'
+[31.920s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/bin'
+[31.920s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/pkgconfig/emotion_recognition.pc'
+[31.920s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages'
+[31.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('emotion_recognition', 'pythonpath')
+[31.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/share/emotion_recognition/hook/pythonpath.ps1'
+[31.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/share/emotion_recognition/hook/pythonpath.dsv'
+[31.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/share/emotion_recognition/hook/pythonpath.sh'
+[31.977s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/bin'
+[31.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(emotion_recognition)
+[32.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/share/emotion_recognition/package.ps1'
+[32.042s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/share/emotion_recognition/package.dsv'
+[32.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/share/emotion_recognition/package.sh'
+[32.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/share/emotion_recognition/package.bash'
+[32.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/share/emotion_recognition/package.zsh'
+[32.048s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/share/colcon-core/packages/emotion_recognition)
+[32.050s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/lane_keeping' with build type 'ament_python'
+[32.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('lane_keeping', 'ament_prefix_path')
+[32.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/share/lane_keeping/hook/ament_prefix_path.ps1'
+[32.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/share/lane_keeping/hook/ament_prefix_path.dsv'
+[32.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/share/lane_keeping/hook/ament_prefix_path.sh'
+[32.147s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[32.147s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[32.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/cam_pub_sub' returned '0': AMENT_PREFIX_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface LD_LIBRARY_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/install.log --single-version-externally-managed
+[32.330s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub' for CMake module files
+[32.331s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub' for CMake config files
+[32.332s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib'
+[32.332s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/bin'
+[32.332s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/pkgconfig/cam_pub_sub.pc'
+[32.332s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages'
+[32.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('cam_pub_sub', 'pythonpath')
+[32.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/share/cam_pub_sub/hook/pythonpath.ps1'
+[32.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/share/cam_pub_sub/hook/pythonpath.dsv'
+[32.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/share/cam_pub_sub/hook/pythonpath.sh'
+[32.366s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/bin'
+[32.367s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cam_pub_sub)
+[32.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/share/cam_pub_sub/package.ps1'
+[32.405s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/share/cam_pub_sub/package.dsv'
+[32.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/share/cam_pub_sub/package.sh'
+[32.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/share/cam_pub_sub/package.bash'
+[32.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/share/cam_pub_sub/package.zsh'
+[32.406s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/share/colcon-core/packages/cam_pub_sub)
+[32.408s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/logging_monitoring'
+[32.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[32.456s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[32.902s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/lane_keeping'
+[32.941s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[32.941s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[33.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/logging_monitoring': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/logging_monitoring build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/install.log --install-scripts $base/lib/logging_monitoring --single-version-externally-managed
+[33.965s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/lane_keeping': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/lane_keeping/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lane_keeping build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/lane_keeping/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/lane_keeping/install.log --install-scripts $base/lib/lane_keeping --single-version-externally-managed
+[34.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/logging_monitoring' returned '0': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/logging_monitoring build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/install.log --install-scripts $base/lib/logging_monitoring --single-version-externally-managed
+[34.487s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring' for CMake module files
+[34.488s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring' for CMake config files
+[34.489s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib'
+[34.489s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/bin'
+[34.489s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/pkgconfig/logging_monitoring.pc'
+[34.489s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages'
+[34.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('logging_monitoring', 'pythonpath')
+[34.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/share/logging_monitoring/hook/pythonpath.ps1'
+[34.542s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/share/logging_monitoring/hook/pythonpath.dsv'
+[34.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/share/logging_monitoring/hook/pythonpath.sh'
+[34.544s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/bin'
+[34.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(logging_monitoring)
+[34.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/share/logging_monitoring/package.ps1'
+[34.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/share/logging_monitoring/package.dsv'
+[34.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/share/logging_monitoring/package.sh'
+[34.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/share/logging_monitoring/package.bash'
+[34.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/share/logging_monitoring/package.zsh'
+[34.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/share/colcon-core/packages/logging_monitoring)
+[34.604s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/obstackle_avoidance' with build type 'ament_python'
+[34.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstackle_avoidance', 'ament_prefix_path')
+[34.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/hook/ament_prefix_path.ps1'
+[34.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/hook/ament_prefix_path.dsv'
+[34.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/hook/ament_prefix_path.sh'
+[34.753s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[34.753s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/lane_keeping' returned '0': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/lane_keeping/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lane_keeping build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/lane_keeping/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/lane_keeping/install.log --install-scripts $base/lib/lane_keeping --single-version-externally-managed
+[35.056s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping' for CMake module files
+[35.056s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping' for CMake config files
+[35.057s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/lib'
+[35.057s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/bin'
+[35.057s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/lib/pkgconfig/lane_keeping.pc'
+[35.058s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/lib/python3.8/site-packages'
+[35.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('lane_keeping', 'pythonpath')
+[35.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/share/lane_keeping/hook/pythonpath.ps1'
+[35.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/share/lane_keeping/hook/pythonpath.dsv'
+[35.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/share/lane_keeping/hook/pythonpath.sh'
+[35.153s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/bin'
+[35.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lane_keeping)
+[35.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/share/lane_keeping/package.ps1'
+[35.208s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/share/lane_keeping/package.dsv'
+[35.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/share/lane_keeping/package.sh'
+[35.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/share/lane_keeping/package.bash'
+[35.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/share/lane_keeping/package.zsh'
+[35.210s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/lane_keeping/share/colcon-core/packages/lane_keeping)
+[35.212s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/voice_recognition' with build type 'ament_python'
+[35.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('voice_recognition', 'ament_prefix_path')
+[35.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/share/voice_recognition/hook/ament_prefix_path.ps1'
+[35.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/share/voice_recognition/hook/ament_prefix_path.dsv'
+[35.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/share/voice_recognition/hook/ament_prefix_path.sh'
+[35.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.320s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.774s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/obstackle_avoidance'
+[35.810s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.810s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[36.179s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/voice_recognition'
+[36.236s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[36.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[36.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/voice_recognition': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice_recognition build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/install.log --install-scripts $base/lib/voice_recognition --single-version-externally-managed
+[37.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/obstackle_avoidance': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/obstackle_avoidance build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/install.log --single-version-externally-managed
+[37.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/voice_recognition' returned '0': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice_recognition build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/voice_recognition/install.log --install-scripts $base/lib/voice_recognition --single-version-externally-managed
+[37.709s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition' for CMake module files
+[37.709s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition' for CMake config files
+[37.710s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib'
+[37.710s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/bin'
+[37.710s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/pkgconfig/voice_recognition.pc'
+[37.710s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/lib/python3.8/site-packages'
+[37.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('voice_recognition', 'pythonpath')
+[37.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/share/voice_recognition/hook/pythonpath.ps1'
+[37.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/share/voice_recognition/hook/pythonpath.dsv'
+[37.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/share/voice_recognition/hook/pythonpath.sh'
+[37.777s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/bin'
+[37.777s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voice_recognition)
+[37.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/share/voice_recognition/package.ps1'
+[37.853s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/share/voice_recognition/package.dsv'
+[37.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/share/voice_recognition/package.sh'
+[37.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/share/voice_recognition/package.bash'
+[37.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/share/voice_recognition/package.zsh'
+[37.854s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/voice_recognition/share/colcon-core/packages/voice_recognition)
+[37.856s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/gesture_pub_sub' with build type 'ament_python'
+[37.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('gesture_pub_sub', 'ament_prefix_path')
+[37.954s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/gesture_pub_sub/hook/ament_prefix_path.ps1'
+[37.954s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/gesture_pub_sub/hook/ament_prefix_path.dsv'
+[37.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/gesture_pub_sub/hook/ament_prefix_path.sh'
+[38.002s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[38.003s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[38.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/obstackle_avoidance' returned '0': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/obstackle_avoidance build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/install.log --single-version-externally-managed
+[38.258s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance' for CMake module files
+[38.259s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance' for CMake config files
+[38.261s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib'
+[38.261s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/bin'
+[38.261s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/pkgconfig/obstackle_avoidance.pc'
+[38.262s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages'
+[38.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstackle_avoidance', 'pythonpath')
+[38.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/hook/pythonpath.ps1'
+[38.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/hook/pythonpath.dsv'
+[38.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/hook/pythonpath.sh'
+[38.350s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/bin'
+[38.350s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstackle_avoidance)
+[38.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/package.ps1'
+[38.407s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/package.dsv'
+[38.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/package.sh'
+[38.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/package.bash'
+[38.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/obstackle_avoidance/package.zsh'
+[38.409s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/share/colcon-core/packages/obstackle_avoidance)
+[38.726s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/gesture_pub_sub'
+[38.785s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[38.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[39.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/gesture_pub_sub': AMENT_PREFIX_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface LD_LIBRARY_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/python3.8/site-packages:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gesture_pub_sub build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/install.log --install-scripts $base/lib/gesture_pub_sub --single-version-externally-managed
+[39.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/gesture_pub_sub' returned '0': AMENT_PREFIX_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface LD_LIBRARY_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/python3.8/site-packages:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/gesture_pub_sub build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_pub_sub/install.log --install-scripts $base/lib/gesture_pub_sub --single-version-externally-managed
+[39.808s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub' for CMake module files
+[39.808s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub' for CMake config files
+[39.809s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib'
+[39.809s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/bin'
+[39.809s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/pkgconfig/gesture_pub_sub.pc'
+[39.809s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/lib/python3.8/site-packages'
+[39.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('gesture_pub_sub', 'pythonpath')
+[39.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/gesture_pub_sub/hook/pythonpath.ps1'
+[39.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/gesture_pub_sub/hook/pythonpath.dsv'
+[39.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/gesture_pub_sub/hook/pythonpath.sh'
+[39.847s] Level 1:colcon.colcon_core.environment:checking '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/bin'
+[39.847s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gesture_pub_sub)
+[39.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/gesture_pub_sub/package.ps1'
+[39.887s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/gesture_pub_sub/package.dsv'
+[39.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/gesture_pub_sub/package.sh'
+[39.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/gesture_pub_sub/package.bash'
+[39.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/gesture_pub_sub/package.zsh'
+[39.890s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_pub_sub/share/colcon-core/packages/gesture_pub_sub)
+[39.890s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[39.891s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[39.891s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[39.891s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[39.964s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[39.964s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[39.964s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[39.998s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[40.076s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/local_setup.ps1'
+[40.084s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/_local_setup_util_ps1.py'
+[40.087s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/setup.ps1'
+[40.139s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/local_setup.sh'
+[40.141s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/_local_setup_util_sh.py'
+[40.141s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/setup.sh'
+[40.187s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/local_setup.bash'
+[40.188s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/setup.bash'
+[40.231s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/local_setup.zsh'
+[40.232s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/setup.zsh'

@@ -1,0 +1,24 @@
+[2.359s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/obstackle_avoidance': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/obstackle_avoidance build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/install.log --single-version-externally-managed
+[2.840s] running egg_info
+[2.846s] writing ../../build/obstackle_avoidance/obstackle_avoidance.egg-info/PKG-INFO
+[2.847s] writing dependency_links to ../../build/obstackle_avoidance/obstackle_avoidance.egg-info/dependency_links.txt
+[2.847s] writing entry points to ../../build/obstackle_avoidance/obstackle_avoidance.egg-info/entry_points.txt
+[2.850s] writing requirements to ../../build/obstackle_avoidance/obstackle_avoidance.egg-info/requires.txt
+[2.851s] writing top-level names to ../../build/obstackle_avoidance/obstackle_avoidance.egg-info/top_level.txt
+[3.009s] reading manifest file '../../build/obstackle_avoidance/obstackle_avoidance.egg-info/SOURCES.txt'
+[3.009s] writing manifest file '../../build/obstackle_avoidance/obstackle_avoidance.egg-info/SOURCES.txt'
+[3.009s] running build
+[3.009s] running build_py
+[3.009s] running install
+[3.009s] running install_lib
+[3.009s] running install_data
+[3.010s] running install_egg_info
+[3.010s] removing '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance-0.1.0-py3.8.egg-info' (and everything under it)
+[3.022s] Copying ../../build/obstackle_avoidance/obstackle_avoidance.egg-info to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages/obstackle_avoidance-0.1.0-py3.8.egg-info
+[3.022s] running install_scripts
+[3.062s] Installing collision_avoidance script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/obstackle_avoidance
+[3.063s] Installing emergency_braking script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/obstackle_avoidance
+[3.064s] Installing obstacle_avoidance script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/obstackle_avoidance
+[3.064s] Installing wall_following script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/obstackle_avoidance
+[3.064s] writing list of installed files to '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/install.log'
+[3.216s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/obstackle_avoidance' returned '0': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/obstackle_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/obstackle_avoidance build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/obstackle_avoidance/install.log --single-version-externally-managed

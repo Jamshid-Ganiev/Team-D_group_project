@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/logging_monitoring/logging_monitoring.egg-info/PKG-INFO
+writing dependency_links to ../../build/logging_monitoring/logging_monitoring.egg-info/dependency_links.txt
+writing entry points to ../../build/logging_monitoring/logging_monitoring.egg-info/entry_points.txt
+writing requirements to ../../build/logging_monitoring/logging_monitoring.egg-info/requires.txt
+writing top-level names to ../../build/logging_monitoring/logging_monitoring.egg-info/top_level.txt
+reading manifest file '../../build/logging_monitoring/logging_monitoring.egg-info/SOURCES.txt'
+writing manifest file '../../build/logging_monitoring/logging_monitoring.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/logging_monitoring/logging_monitoring.egg-info to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring-0.0.0-py3.8.egg-info
+running install_scripts
+Installing battery_power_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+Installing error_warning_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+Installing localization_mapping_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+Installing logging_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+Installing navigation_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+Installing sensor_data_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+Installing system_health_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+writing list of installed files to '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/install.log'

@@ -1,0 +1,236 @@
+[0.352s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/cam_interface -DCMAKE_INSTALL_PREFIX=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface
+[0.867s] -- The C compiler identification is GNU 9.4.0
+[1.186s] -- The CXX compiler identification is GNU 9.4.0
+[1.212s] -- Check for working C compiler: /usr/bin/cc
+[1.535s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.537s] -- Detecting C compiler ABI info
+[1.718s] -- Detecting C compiler ABI info - done
+[1.745s] -- Detecting C compile features
+[1.745s] -- Detecting C compile features - done
+[1.745s] -- Check for working CXX compiler: /usr/bin/c++
+[1.988s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.988s] -- Detecting CXX compiler ABI info
+[2.265s] -- Detecting CXX compiler ABI info - done
+[2.275s] -- Detecting CXX compile features
+[2.277s] -- Detecting CXX compile features - done
+[2.305s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.434s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.434s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.858s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.862s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.872s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.062s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.101s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.268s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.344s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[3.481s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.801s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.274s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.482s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.933s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.973s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.973s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[6.016s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[6.016s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.016s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.016s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[6.067s] -- Found PythonExtra: .so  
+[6.352s] -- Configuring done
+[6.529s] -- Generating done
+[6.537s] -- Build files have been written to: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface
+[6.553s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface' returned '0': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/cam_interface -DCMAKE_INSTALL_PREFIX=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface
+[6.555s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake --build /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface -- -j2 -l2
+[6.634s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.686s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.686s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.538s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[7.550s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.564s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.041s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.125s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[8.253s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[8.949s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[9.730s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[11.491s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.363s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.487s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[12.488s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[12.628s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.629s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[12.629s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[13.078s] -- Configuring done
+[13.500s] -- Generating done
+[13.511s] -- Build files have been written to: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface
+[13.637s] [35m[1mScanning dependencies of target cam_interface__cpp[0m
+[13.681s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.690s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[15.264s] [  6%] Built target cam_interface__cpp
+[15.341s] [35m[1mScanning dependencies of target cam_interface__rosidl_generator_c[0m
+[15.355s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.432s] [ 12%] [32mBuilding C object CMakeFiles/cam_interface__rosidl_generator_c.dir/rosidl_generator_c/cam_interface/msg/detail/cam_topic__functions.c.o[0m
+[15.633s] [ 16%] [32m[1mLinking C shared library libcam_interface__rosidl_generator_c.so[0m
+[15.865s] [ 16%] Built target cam_interface__rosidl_generator_c
+[16.033s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[16.117s] [35m[1mScanning dependencies of target cam_interface__rosidl_typesupport_introspection_cpp[0m
+[16.165s] [ 22%] [32mBuilding CXX object CMakeFiles/cam_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cam_interface/msg/detail/cam_topic__type_support.cpp.o[0m
+[16.657s] [35m[1mScanning dependencies of target cam_interface__rosidl_typesupport_fastrtps_cpp[0m
+[16.681s] [ 25%] [32m[1mLinking CXX shared library libcam_interface__rosidl_typesupport_introspection_cpp.so[0m
+[16.739s] [ 29%] [32mBuilding CXX object CMakeFiles/cam_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cam_interface/msg/detail/dds_fastrtps/cam_topic__type_support.cpp.o[0m
+[17.012s] [ 29%] Built target cam_interface__rosidl_typesupport_introspection_cpp
+[17.081s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[17.529s] [35m[1mScanning dependencies of target cam_interface__rosidl_typesupport_c[0m
+[17.555s] [ 35%] [32mBuilding CXX object CMakeFiles/cam_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/cam_interface/msg/cam_topic__type_support.cpp.o[0m
+[17.714s] [ 38%] [32m[1mLinking CXX shared library libcam_interface__rosidl_typesupport_c.so[0m
+[17.875s] [ 38%] Built target cam_interface__rosidl_typesupport_c
+[17.935s] [ 41%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[18.083s] [ 45%] [32m[1mLinking CXX shared library libcam_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.474s] [35m[1mScanning dependencies of target cam_interface__rosidl_typesupport_introspection_c[0m
+[18.515s] [ 45%] Built target cam_interface__rosidl_typesupport_fastrtps_cpp
+[18.545s] [ 48%] [32mBuilding C object CMakeFiles/cam_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cam_interface/msg/detail/cam_topic__type_support.c.o[0m
+[18.554s] [ 51%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[18.675s] [ 54%] [32m[1mLinking C shared library libcam_interface__rosidl_typesupport_introspection_c.so[0m
+[18.770s] [ 54%] Built target cam_interface__rosidl_typesupport_introspection_c
+[18.861s] [ 58%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[19.233s] [35m[1mScanning dependencies of target cam_interface__rosidl_typesupport_cpp[0m
+[19.283s] [ 61%] [32mBuilding CXX object CMakeFiles/cam_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cam_interface/msg/cam_topic__type_support.cpp.o[0m
+[19.677s] [35m[1mScanning dependencies of target cam_interface__rosidl_typesupport_fastrtps_c[0m
+[19.713s] [ 64%] [32mBuilding CXX object CMakeFiles/cam_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cam_interface/msg/detail/cam_topic__type_support_c.cpp.o[0m
+[20.366s] [ 67%] [32m[1mLinking CXX shared library libcam_interface__rosidl_typesupport_cpp.so[0m
+[20.484s] [ 67%] Built target cam_interface__rosidl_typesupport_cpp
+[20.548s] [ 70%] [32m[1mLinking CXX shared library libcam_interface__rosidl_typesupport_fastrtps_c.so[0m
+[20.784s] [ 70%] Built target cam_interface__rosidl_typesupport_fastrtps_c
+[20.808s] [35m[1mScanning dependencies of target cam_interface[0m
+[20.815s] make[2]: Warning: File '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/cam_interface/msg/CamTopic.msg' has modification time 46456 s in the future
+[20.818s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[20.836s] [ 70%] Built target cam_interface
+[20.937s] [35m[1mScanning dependencies of target cam_interface__py[0m
+[20.973s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[22.036s] [ 74%] Built target cam_interface__py
+[22.076s] [35m[1mScanning dependencies of target cam_interface__python[0m
+[22.108s] [ 77%] [32mBuilding C object CMakeFiles/cam_interface__python.dir/rosidl_generator_py/cam_interface/msg/_cam_topic_s.c.o[0m
+[22.425s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/cam_interface/libcam_interface__python.so[0m
+[22.603s] [ 80%] Built target cam_interface__python
+[22.653s] [35m[1mScanning dependencies of target cam_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[22.670s] [35m[1mScanning dependencies of target cam_interface__rosidl_typesupport_c__pyext[0m
+[22.752s] [ 83%] [32mBuilding C object CMakeFiles/cam_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cam_interface/_cam_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[22.752s] [ 87%] [32mBuilding C object CMakeFiles/cam_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cam_interface/_cam_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[23.228s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/cam_interface/cam_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[23.256s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/cam_interface/cam_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[23.374s] [ 93%] Built target cam_interface__rosidl_typesupport_c__pyext
+[23.425s] [35m[1mScanning dependencies of target cam_interface__rosidl_typesupport_introspection_c__pyext[0m
+[23.469s] [ 93%] Built target cam_interface__rosidl_typesupport_fastrtps_c__pyext
+[23.473s] [ 96%] [32mBuilding C object CMakeFiles/cam_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cam_interface/_cam_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.657s] [100%] [32m[1mLinking C shared library rosidl_generator_py/cam_interface/cam_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[23.856s] [100%] Built target cam_interface__rosidl_typesupport_introspection_c__pyext
+[23.877s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface' returned '0': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake --build /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface -- -j2 -l2
+[24.036s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake --install /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface
+[24.055s] -- Install configuration: ""
+[24.056s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/ament_index/resource_index/rosidl_interfaces/cam_interface
+[24.057s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface
+[24.058s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg
+[24.058s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail
+[24.059s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail/cam_topic__type_support.h
+[24.059s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail/cam_topic__functions.h
+[24.059s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail/cam_topic__functions.c
+[24.060s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail/cam_topic__struct.h
+[24.061s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/rosidl_generator_c__visibility_control.h
+[24.061s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/cam_topic.h
+[24.062s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/environment/library_path.sh
+[24.063s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/environment/library_path.dsv
+[24.064s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/libcam_interface__rosidl_generator_c.so
+[24.065s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/libcam_interface__rosidl_generator_c.so" to ""
+[24.066s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface
+[24.066s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg
+[24.066s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[24.067s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail
+[24.067s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail/cam_topic__rosidl_typesupport_fastrtps_c.h
+[24.068s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_fastrtps_c.so
+[24.069s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[24.074s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface
+[24.075s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg
+[24.075s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[24.075s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail
+[24.075s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail/cam_topic__rosidl_typesupport_fastrtps_cpp.hpp
+[24.075s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail/dds_fastrtps
+[24.075s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_fastrtps_cpp.so
+[24.075s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[24.075s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface
+[24.075s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg
+[24.075s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[24.075s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail
+[24.076s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail/cam_topic__type_support.c
+[24.076s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail/cam_topic__rosidl_typesupport_introspection_c.h
+[24.076s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_introspection_c.so
+[24.076s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_introspection_c.so" to ""
+[24.076s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_c.so
+[24.076s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_c.so" to ""
+[24.076s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface
+[24.076s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg
+[24.077s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/cam_topic.hpp
+[24.077s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[24.077s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail
+[24.077s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail/cam_topic__struct.hpp
+[24.077s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail/cam_topic__traits.hpp
+[24.077s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail/cam_topic__type_support.hpp
+[24.077s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail/cam_topic__builder.hpp
+[24.077s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface
+[24.077s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg
+[24.077s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail
+[24.077s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail/cam_topic__type_support.cpp
+[24.077s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/include/cam_interface/msg/detail/cam_topic__rosidl_typesupport_introspection_cpp.hpp
+[24.077s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_introspection_cpp.so
+[24.077s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[24.077s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_cpp.so
+[24.077s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/libcam_interface__rosidl_typesupport_cpp.so" to ""
+[24.077s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/environment/pythonpath.sh
+[24.077s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/environment/pythonpath.dsv
+[24.078s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages/cam_interface/__init__.py
+[24.136s] Compiling '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages/cam_interface/__init__.py'...
+[24.146s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages/cam_interface/msg
+[24.147s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages/cam_interface/msg/_cam_topic.py
+[24.148s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages/cam_interface/msg/__init__.py
+[24.150s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages/cam_interface/msg/_cam_topic_s.c
+[24.152s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages/cam_interface/cam_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[24.153s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages/cam_interface/cam_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[24.153s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages/cam_interface/cam_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[24.155s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages/cam_interface/cam_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[24.155s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages/cam_interface/cam_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[24.156s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages/cam_interface/cam_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[24.158s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/libcam_interface__python.so
+[24.159s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/libcam_interface__python.so" to ""
+[24.160s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/msg/CamTopic.idl
+[24.161s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/msg/CamTopic.msg
+[24.161s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/ament_index/resource_index/package_run_dependencies/cam_interface
+[24.163s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/ament_index/resource_index/parent_prefix_path/cam_interface
+[24.163s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/environment/ament_prefix_path.sh
+[24.164s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/environment/ament_prefix_path.dsv
+[24.165s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/environment/path.sh
+[24.166s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/environment/path.dsv
+[24.167s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/local_setup.bash
+[24.168s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/local_setup.sh
+[24.169s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/local_setup.zsh
+[24.170s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/local_setup.dsv
+[24.172s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/package.dsv
+[24.173s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/ament_index/resource_index/packages/cam_interface
+[24.175s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_generator_cExport.cmake
+[24.175s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_generator_cExport-noconfig.cmake
+[24.177s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_introspection_cExport.cmake
+[24.178s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[24.179s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_cExport.cmake
+[24.181s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_cExport-noconfig.cmake
+[24.182s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_generator_cppExport.cmake
+[24.183s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_introspection_cppExport.cmake
+[24.184s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[24.186s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_cppExport.cmake
+[24.187s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/cam_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[24.189s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/rosidl_cmake-extras.cmake
+[24.190s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.191s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[24.193s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/ament_cmake_export_targets-extras.cmake
+[24.194s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.195s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[24.196s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[24.196s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/cam_interfaceConfig.cmake
+[24.197s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/cmake/cam_interfaceConfig-version.cmake
+[24.197s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/share/cam_interface/package.xml
+[24.213s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface' returned '0': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake --install /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_interface

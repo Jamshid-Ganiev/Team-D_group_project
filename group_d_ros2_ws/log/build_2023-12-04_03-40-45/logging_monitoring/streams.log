@@ -1,0 +1,27 @@
+[1.778s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/logging_monitoring': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/logging_monitoring build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/install.log --install-scripts $base/lib/logging_monitoring --single-version-externally-managed
+[2.254s] running egg_info
+[2.254s] writing ../../build/logging_monitoring/logging_monitoring.egg-info/PKG-INFO
+[2.254s] writing dependency_links to ../../build/logging_monitoring/logging_monitoring.egg-info/dependency_links.txt
+[2.254s] writing entry points to ../../build/logging_monitoring/logging_monitoring.egg-info/entry_points.txt
+[2.255s] writing requirements to ../../build/logging_monitoring/logging_monitoring.egg-info/requires.txt
+[2.255s] writing top-level names to ../../build/logging_monitoring/logging_monitoring.egg-info/top_level.txt
+[2.294s] reading manifest file '../../build/logging_monitoring/logging_monitoring.egg-info/SOURCES.txt'
+[2.301s] writing manifest file '../../build/logging_monitoring/logging_monitoring.egg-info/SOURCES.txt'
+[2.312s] running build
+[2.313s] running build_py
+[2.313s] running install
+[2.313s] running install_lib
+[2.313s] running install_data
+[2.313s] running install_egg_info
+[2.318s] removing '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring-0.0.0-py3.8.egg-info' (and everything under it)
+[2.330s] Copying ../../build/logging_monitoring/logging_monitoring.egg-info to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages/logging_monitoring-0.0.0-py3.8.egg-info
+[2.331s] running install_scripts
+[2.351s] Installing battery_power_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+[2.351s] Installing error_warning_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+[2.352s] Installing localization_mapping_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+[2.355s] Installing logging_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+[2.355s] Installing navigation_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+[2.356s] Installing sensor_data_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+[2.356s] Installing system_health_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/logging_monitoring
+[2.356s] writing list of installed files to '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/install.log'
+[2.855s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/logging_monitoring' returned '0': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/logging_monitoring/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/logging_monitoring build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/logging_monitoring/install.log --install-scripts $base/lib/logging_monitoring --single-version-externally-managed

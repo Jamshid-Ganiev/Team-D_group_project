@@ -1,0 +1,22 @@
+[2.515s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/emotion_recognition': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/emotion_recognition build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/install.log --single-version-externally-managed
+[2.832s] running egg_info
+[2.833s] writing ../../build/emotion_recognition/emotion_recognition.egg-info/PKG-INFO
+[2.838s] writing dependency_links to ../../build/emotion_recognition/emotion_recognition.egg-info/dependency_links.txt
+[2.838s] writing entry points to ../../build/emotion_recognition/emotion_recognition.egg-info/entry_points.txt
+[2.838s] writing requirements to ../../build/emotion_recognition/emotion_recognition.egg-info/requires.txt
+[2.839s] writing top-level names to ../../build/emotion_recognition/emotion_recognition.egg-info/top_level.txt
+[2.888s] reading manifest file '../../build/emotion_recognition/emotion_recognition.egg-info/SOURCES.txt'
+[2.890s] writing manifest file '../../build/emotion_recognition/emotion_recognition.egg-info/SOURCES.txt'
+[2.891s] running build
+[2.891s] running build_py
+[2.892s] running install
+[2.894s] running install_lib
+[2.897s] running install_egg_info
+[2.900s] removing '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages/emotion_recognition-0.0.0-py3.8.egg-info' (and everything under it)
+[2.901s] Copying ../../build/emotion_recognition/emotion_recognition.egg-info to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages/emotion_recognition-0.0.0-py3.8.egg-info
+[2.903s] running install_scripts
+[2.933s] Installing camera_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/emotion_recognition
+[2.939s] Installing emotion_cli script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/emotion_recognition
+[2.943s] Installing emotion_recognition_node script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/emotion_recognition
+[2.945s] writing list of installed files to '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/install.log'
+[3.052s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/emotion_recognition' returned '0': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/emotion_recognition/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/emotion_recognition build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/emotion_recognition/install.log --single-version-externally-managed

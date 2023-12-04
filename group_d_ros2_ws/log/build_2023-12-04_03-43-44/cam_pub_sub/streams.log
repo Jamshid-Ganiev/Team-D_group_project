@@ -1,0 +1,25 @@
+[2.042s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/cam_pub_sub': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/install.log --single-version-externally-managed
+[2.459s] running egg_info
+[2.475s] writing ../../build/cam_pub_sub/cam_pub_sub.egg-info/PKG-INFO
+[2.480s] writing dependency_links to ../../build/cam_pub_sub/cam_pub_sub.egg-info/dependency_links.txt
+[2.481s] writing entry points to ../../build/cam_pub_sub/cam_pub_sub.egg-info/entry_points.txt
+[2.487s] writing requirements to ../../build/cam_pub_sub/cam_pub_sub.egg-info/requires.txt
+[2.488s] writing top-level names to ../../build/cam_pub_sub/cam_pub_sub.egg-info/top_level.txt
+[2.620s] reading manifest file '../../build/cam_pub_sub/cam_pub_sub.egg-info/SOURCES.txt'
+[2.624s] writing manifest file '../../build/cam_pub_sub/cam_pub_sub.egg-info/SOURCES.txt'
+[2.624s] running build
+[2.625s] running build_py
+[2.625s] running install
+[2.629s] running install_lib
+[2.636s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages/cam_pub_sub/cam_pub.py to cam_pub.cpython-38.pyc
+[2.643s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages/cam_pub_sub/__init__.py to __init__.cpython-38.pyc
+[2.644s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages/cam_pub_sub/cam_sub.py to cam_sub.cpython-38.pyc
+[2.645s] running install_data
+[2.650s] running install_egg_info
+[2.658s] removing '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages/cam_pub_sub-0.0.0-py3.8.egg-info' (and everything under it)
+[2.670s] Copying ../../build/cam_pub_sub/cam_pub_sub.egg-info to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages/cam_pub_sub-0.0.0-py3.8.egg-info
+[2.672s] running install_scripts
+[2.735s] Installing cam_pub script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/cam_pub_sub
+[2.745s] Installing cam_sub script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/cam_pub_sub
+[2.746s] writing list of installed files to '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/install.log'
+[3.218s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/cam_pub_sub' returned '0': PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/install.log --single-version-externally-managed

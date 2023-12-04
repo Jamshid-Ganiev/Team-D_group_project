@@ -1,0 +1,25 @@
+[2.600s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/cam_pub_sub': AMENT_PREFIX_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface LD_LIBRARY_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/install.log --single-version-externally-managed
+[2.955s] running egg_info
+[2.955s] writing ../../build/cam_pub_sub/cam_pub_sub.egg-info/PKG-INFO
+[2.955s] writing dependency_links to ../../build/cam_pub_sub/cam_pub_sub.egg-info/dependency_links.txt
+[2.955s] writing entry points to ../../build/cam_pub_sub/cam_pub_sub.egg-info/entry_points.txt
+[2.957s] writing requirements to ../../build/cam_pub_sub/cam_pub_sub.egg-info/requires.txt
+[2.958s] writing top-level names to ../../build/cam_pub_sub/cam_pub_sub.egg-info/top_level.txt
+[3.019s] reading manifest file '../../build/cam_pub_sub/cam_pub_sub.egg-info/SOURCES.txt'
+[3.027s] writing manifest file '../../build/cam_pub_sub/cam_pub_sub.egg-info/SOURCES.txt'
+[3.029s] running build
+[3.029s] running build_py
+[3.029s] running install
+[3.030s] running install_lib
+[3.035s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages/cam_pub_sub/cam_pub.py to cam_pub.cpython-38.pyc
+[3.039s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages/cam_pub_sub/__init__.py to __init__.cpython-38.pyc
+[3.043s] byte-compiling /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages/cam_pub_sub/cam_sub.py to cam_sub.cpython-38.pyc
+[3.049s] running install_data
+[3.049s] running install_egg_info
+[3.050s] removing '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages/cam_pub_sub-0.0.0-py3.8.egg-info' (and everything under it)
+[3.050s] Copying ../../build/cam_pub_sub/cam_pub_sub.egg-info to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages/cam_pub_sub-0.0.0-py3.8.egg-info
+[3.050s] running install_scripts
+[3.078s] Installing cam_pub script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/cam_pub_sub
+[3.078s] Installing cam_sub script to /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/cam_pub_sub
+[3.088s] writing list of installed files to '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/install.log'
+[3.666s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/cam_pub_sub' returned '0': AMENT_PREFIX_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface LD_LIBRARY_PATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/prefix_override:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_pub_sub/lib/python3.8/site-packages:/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/cam_interface/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/cam_pub_sub build --build-base /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/build install --record /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/cam_pub_sub/install.log --single-version-externally-managed

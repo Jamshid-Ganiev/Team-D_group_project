@@ -1,0 +1,4 @@
+[console_scripts]
+client_node = voice_recognition.client:main
+server_node = voice_recognition.server:main
+

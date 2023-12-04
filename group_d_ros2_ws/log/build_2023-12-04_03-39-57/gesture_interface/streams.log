@@ -1,0 +1,232 @@
+[0.198s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/gesture_interface -DCMAKE_INSTALL_PREFIX=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface
+[0.694s] -- The C compiler identification is GNU 9.4.0
+[1.011s] -- The CXX compiler identification is GNU 9.4.0
+[1.043s] -- Check for working C compiler: /usr/bin/cc
+[1.233s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.248s] -- Detecting C compiler ABI info
+[1.503s] -- Detecting C compiler ABI info - done
+[1.536s] -- Detecting C compile features
+[1.539s] -- Detecting C compile features - done
+[1.556s] -- Check for working CXX compiler: /usr/bin/c++
+[1.736s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.738s] -- Detecting CXX compiler ABI info
+[1.946s] -- Detecting CXX compiler ABI info - done
+[1.968s] -- Detecting CXX compile features
+[1.969s] -- Detecting CXX compile features - done
+[1.984s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.036s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.036s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.602s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.635s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.671s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.886s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.926s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.093s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.215s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.419s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.638s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.696s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.702s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.791s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.791s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.791s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.792s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.841s] -- Found PythonExtra: .so  
+[3.988s] -- Configuring done
+[4.094s] -- Generating done
+[4.099s] -- Build files have been written to: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface
+[4.150s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface' returned '0': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/gesture_interface -DCMAKE_INSTALL_PREFIX=/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface
+[4.152s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake --build /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface -- -j2 -l2
+[4.216s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.260s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.260s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.891s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[4.897s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.907s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.325s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.517s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[5.684s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.990s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.002s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.042s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[6.042s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[6.153s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.153s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.153s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[6.207s] -- Configuring done
+[6.382s] -- Generating done
+[6.419s] -- Build files have been written to: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface
+[6.555s] [35m[1mScanning dependencies of target gesture_interface__cpp[0m
+[6.560s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.728s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.411s] [  6%] Built target gesture_interface__cpp
+[7.470s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.754s] [35m[1mScanning dependencies of target gesture_interface__rosidl_generator_c[0m
+[7.866s] [ 12%] [32mBuilding C object CMakeFiles/gesture_interface__rosidl_generator_c.dir/rosidl_generator_c/gesture_interface/msg/detail/gesture_topic__functions.c.o[0m
+[8.153s] [ 16%] [32m[1mLinking C shared library libgesture_interface__rosidl_generator_c.so[0m
+[8.239s] [35m[1mScanning dependencies of target gesture_interface__rosidl_typesupport_cpp[0m
+[8.320s] [ 19%] [32mBuilding CXX object CMakeFiles/gesture_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gesture_interface/msg/gesture_topic__type_support.cpp.o[0m
+[8.381s] [ 19%] Built target gesture_interface__rosidl_generator_c
+[8.434s] [ 22%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.363s] [35m[1mScanning dependencies of target gesture_interface__rosidl_typesupport_fastrtps_cpp[0m
+[9.456s] [ 25%] [32mBuilding CXX object CMakeFiles/gesture_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gesture_interface/msg/detail/dds_fastrtps/gesture_topic__type_support.cpp.o[0m
+[9.761s] [ 29%] [32m[1mLinking CXX shared library libgesture_interface__rosidl_typesupport_cpp.so[0m
+[10.023s] [ 29%] Built target gesture_interface__rosidl_typesupport_cpp
+[10.126s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.928s] [35m[1mScanning dependencies of target gesture_interface__rosidl_typesupport_c[0m
+[10.984s] [ 35%] [32mBuilding CXX object CMakeFiles/gesture_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/gesture_interface/msg/gesture_topic__type_support.cpp.o[0m
+[11.174s] [ 38%] [32m[1mLinking CXX shared library libgesture_interface__rosidl_typesupport_c.so[0m
+[11.371s] [ 38%] Built target gesture_interface__rosidl_typesupport_c
+[11.403s] [ 41%] [32m[1mLinking CXX shared library libgesture_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.483s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.995s] [ 45%] Built target gesture_interface__rosidl_typesupport_fastrtps_cpp
+[12.078s] [ 48%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.609s] [35m[1mScanning dependencies of target gesture_interface__rosidl_typesupport_introspection_c[0m
+[12.714s] [ 51%] [32mBuilding C object CMakeFiles/gesture_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gesture_interface/msg/detail/gesture_topic__type_support.c.o[0m
+[12.902s] [ 54%] [32m[1mLinking C shared library libgesture_interface__rosidl_typesupport_introspection_c.so[0m
+[13.022s] [35m[1mScanning dependencies of target gesture_interface__rosidl_typesupport_introspection_cpp[0m
+[13.078s] [ 54%] Built target gesture_interface__rosidl_typesupport_introspection_c
+[13.107s] [ 58%] [32mBuilding CXX object CMakeFiles/gesture_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gesture_interface/msg/detail/gesture_topic__type_support.cpp.o[0m
+[13.161s] [ 61%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.414s] [35m[1mScanning dependencies of target gesture_interface__rosidl_typesupport_fastrtps_c[0m
+[14.598s] [ 64%] [32mBuilding CXX object CMakeFiles/gesture_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gesture_interface/msg/detail/gesture_topic__type_support_c.cpp.o[0m
+[14.605s] [ 67%] [32m[1mLinking CXX shared library libgesture_interface__rosidl_typesupport_introspection_cpp.so[0m
+[15.014s] [ 67%] Built target gesture_interface__rosidl_typesupport_introspection_cpp
+[16.007s] [ 70%] [32m[1mLinking CXX shared library libgesture_interface__rosidl_typesupport_fastrtps_c.so[0m
+[16.367s] [ 70%] Built target gesture_interface__rosidl_typesupport_fastrtps_c
+[16.415s] [35m[1mScanning dependencies of target gesture_interface[0m
+[16.456s] make[2]: Warning: File '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/src/gesture_interface/msg/GestureTopic.msg' has modification time 46460 s in the future
+[16.456s] make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[16.482s] [ 70%] Built target gesture_interface
+[16.522s] [35m[1mScanning dependencies of target gesture_interface__py[0m
+[16.567s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.837s] [ 74%] Built target gesture_interface__py
+[17.879s] [35m[1mScanning dependencies of target gesture_interface__python[0m
+[18.084s] [ 77%] [32mBuilding C object CMakeFiles/gesture_interface__python.dir/rosidl_generator_py/gesture_interface/msg/_gesture_topic_s.c.o[0m
+[18.406s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/gesture_interface/libgesture_interface__python.so[0m
+[18.581s] [ 80%] Built target gesture_interface__python
+[18.623s] [35m[1mScanning dependencies of target gesture_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[18.690s] [35m[1mScanning dependencies of target gesture_interface__rosidl_typesupport_c__pyext[0m
+[18.697s] [ 83%] [32mBuilding C object CMakeFiles/gesture_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gesture_interface/_gesture_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.824s] [ 87%] [32mBuilding C object CMakeFiles/gesture_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gesture_interface/_gesture_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[19.052s] [ 90%] [32m[1mLinking CXX shared library rosidl_generator_py/gesture_interface/gesture_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[19.141s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/gesture_interface/gesture_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[19.463s] [ 93%] Built target gesture_interface__rosidl_typesupport_c__pyext
+[19.479s] [ 93%] Built target gesture_interface__rosidl_typesupport_fastrtps_c__pyext
+[19.495s] [35m[1mScanning dependencies of target gesture_interface__rosidl_typesupport_introspection_c__pyext[0m
+[19.547s] [ 96%] [32mBuilding C object CMakeFiles/gesture_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gesture_interface/_gesture_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.998s] [100%] [32m[1mLinking C shared library rosidl_generator_py/gesture_interface/gesture_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[20.059s] [100%] Built target gesture_interface__rosidl_typesupport_introspection_c__pyext
+[20.120s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface' returned '0': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake --build /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface -- -j2 -l2
+[20.567s] Invoking command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake --install /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface
+[20.582s] -- Install configuration: ""
+[20.583s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/ament_index/resource_index/rosidl_interfaces/gesture_interface
+[20.583s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface
+[20.584s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg
+[20.584s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/gesture_topic.h
+[20.585s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail
+[20.585s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail/gesture_topic__type_support.h
+[20.585s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail/gesture_topic__struct.h
+[20.586s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail/gesture_topic__functions.c
+[20.586s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail/gesture_topic__functions.h
+[20.586s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/rosidl_generator_c__visibility_control.h
+[20.587s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/environment/library_path.sh
+[20.587s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/environment/library_path.dsv
+[20.589s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/libgesture_interface__rosidl_generator_c.so
+[20.590s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/libgesture_interface__rosidl_generator_c.so" to ""
+[20.590s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface
+[20.591s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg
+[20.591s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.591s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail
+[20.591s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail/gesture_topic__rosidl_typesupport_fastrtps_c.h
+[20.594s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_fastrtps_c.so
+[20.595s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[20.596s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface
+[20.596s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg
+[20.596s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.596s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail
+[20.597s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail/dds_fastrtps
+[20.597s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail/gesture_topic__rosidl_typesupport_fastrtps_cpp.hpp
+[20.598s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_fastrtps_cpp.so
+[20.599s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[20.599s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface
+[20.599s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg
+[20.599s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.600s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail
+[20.600s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail/gesture_topic__rosidl_typesupport_introspection_c.h
+[20.600s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail/gesture_topic__type_support.c
+[20.601s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_introspection_c.so
+[20.602s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_introspection_c.so" to ""
+[20.603s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_c.so
+[20.603s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_c.so" to ""
+[20.603s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface
+[20.604s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg
+[20.604s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[20.604s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/gesture_topic.hpp
+[20.604s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail
+[20.605s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail/gesture_topic__builder.hpp
+[20.605s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail/gesture_topic__traits.hpp
+[20.605s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail/gesture_topic__type_support.hpp
+[20.606s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail/gesture_topic__struct.hpp
+[20.607s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface
+[20.607s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg
+[20.607s] -- Up-to-date: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail
+[20.608s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail/gesture_topic__rosidl_typesupport_introspection_cpp.hpp
+[20.609s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/include/gesture_interface/msg/detail/gesture_topic__type_support.cpp
+[20.610s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_introspection_cpp.so
+[20.612s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[20.612s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_cpp.so
+[20.613s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/libgesture_interface__rosidl_typesupport_cpp.so" to ""
+[20.615s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/environment/pythonpath.sh
+[20.615s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/environment/pythonpath.dsv
+[20.617s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/python3.8/site-packages/gesture_interface/__init__.py
+[20.666s] Compiling '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/python3.8/site-packages/gesture_interface/__init__.py'...
+[20.675s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/python3.8/site-packages/gesture_interface/msg
+[20.675s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/python3.8/site-packages/gesture_interface/msg/_gesture_topic_s.c
+[20.676s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/python3.8/site-packages/gesture_interface/msg/__init__.py
+[20.676s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/python3.8/site-packages/gesture_interface/msg/_gesture_topic.py
+[20.677s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/python3.8/site-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[20.678s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/python3.8/site-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[20.680s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/python3.8/site-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[20.684s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/python3.8/site-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[20.690s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/python3.8/site-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[20.691s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/python3.8/site-packages/gesture_interface/gesture_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[20.692s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/libgesture_interface__python.so
+[20.702s] -- Set runtime path of "/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/lib/libgesture_interface__python.so" to ""
+[20.702s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/msg/GestureTopic.idl
+[20.702s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/msg/GestureTopic.msg
+[20.705s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/ament_index/resource_index/package_run_dependencies/gesture_interface
+[20.705s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/ament_index/resource_index/parent_prefix_path/gesture_interface
+[20.706s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/environment/ament_prefix_path.sh
+[20.706s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/environment/ament_prefix_path.dsv
+[20.707s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/environment/path.sh
+[20.707s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/environment/path.dsv
+[20.709s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/local_setup.bash
+[20.709s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/local_setup.sh
+[20.710s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/local_setup.zsh
+[20.710s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/local_setup.dsv
+[20.714s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/package.dsv
+[20.715s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/ament_index/resource_index/packages/gesture_interface
+[20.730s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_generator_cExport.cmake
+[20.741s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_generator_cExport-noconfig.cmake
+[20.743s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_introspection_cExport.cmake
+[20.744s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.746s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_cExport.cmake
+[20.747s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_cExport-noconfig.cmake
+[20.749s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_generator_cppExport.cmake
+[20.751s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_introspection_cppExport.cmake
+[20.753s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.753s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_cppExport.cmake
+[20.760s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[20.762s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/rosidl_cmake-extras.cmake
+[20.763s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.763s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[20.763s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/ament_cmake_export_targets-extras.cmake
+[20.763s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.763s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.763s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.763s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interfaceConfig.cmake
+[20.763s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/cmake/gesture_interfaceConfig-version.cmake
+[20.763s] -- Installing: /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/install/gesture_interface/share/gesture_interface/package.xml
+[20.771s] Invoked command in '/home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface' returned '0': CMAKE_PREFIX_PATH=/home/james/colcon_ws/install/obstackle_avoidance:/opt/ros/foxy /usr/bin/cmake --install /home/james/Desktop/Team-D_group_project/group_d_ros2_ws/build/gesture_interface

@@ -1,0 +1,6 @@
+[console_scripts]
+collision_avoidance = obstackle_avoidance.collision_avoidance:main
+emergency_braking = obstackle_avoidance.emergency_braking:main
+obstacle_avoidance = obstackle_avoidance.obstacle_avoidance:main
+wall_following = obstackle_avoidance.wall_following:main
+
