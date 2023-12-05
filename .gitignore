@@ -1,0 +1,5 @@
+# excluding ros build files
+
+/group_d_ros2_ws/build
+/group_d_ros2_ws/install
+/group_d_ros2_ws/log
